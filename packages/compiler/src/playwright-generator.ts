@@ -24,6 +24,53 @@ type Step = {
 const stepDelayMs = 500;
 const steps: Step[] = ${steps};
 
+const hasMatchingSelectors = (left: SelectorBundle, right: SelectorBundle) => {
+  if (left.primary !== right.primary) {
+    return false;
+  }
+
+  if (left.fallbacks.length !== right.fallbacks.length) {
+    return false;
+  }
+
+  return left.fallbacks.every((fallback, index) => fallback === right.fallbacks[index]);
+};
+
+const shouldSkipFocusStep = (step: Step, nextStep?: Step) => {
+  if (step.type !== 'FOCUS' || !nextStep) {
+    return false;
+  }
+
+  return (
+    (nextStep.type === 'CLICK' || nextStep.type === 'LOGIN') &&
+    hasMatchingSelectors(step.selectors, nextStep.selectors)
+  );
+};
+
+const shouldSkipLoginStep = (step: Step, previousStep?: Step) => {
+  if (step.type !== 'LOGIN' || !previousStep) {
+    return false;
+  }
+
+  return (
+    previousStep.type === 'CLICK' &&
+    hasMatchingSelectors(step.selectors, previousStep.selectors)
+  );
+};
+
+const stepsToRun = steps.filter((step, index) => {
+  if (shouldSkipFocusStep(step, steps[index + 1])) {
+    return false;
+  }
+
+  const previousStep = index > 0 ? steps[index - 1] : undefined;
+  if (shouldSkipLoginStep(step, previousStep)) {
+    return false;
+  }
+
+  return true;
+});
+
 const createLocator = (page: any, candidate: string) => {
   const builder = new Function('page', 'return page.' + candidate + ';');
   return builder(page);
@@ -43,10 +90,6 @@ const resolveLocator = async (page: any, bundle: SelectorBundle) => {
 const performStep = async (page: any, step: Step) => {
   console.log('[' + step.id + '] ' + step.type);
 
-  if (step.preconditions?.urlMatches) {
-    await page.waitForURL(step.preconditions.urlMatches, { waitUntil: 'load' });
-  }
-
   if (step.type === 'NAVIGATE') {
     if (step.effects?.urlMatches) {
       await page.waitForURL(step.effects.urlMatches, { waitUntil: 'load' });
@@ -61,7 +104,12 @@ const performStep = async (page: any, step: Step) => {
     await locator.click();
   } else if (['INPUT', 'CHANGE'].includes(step.type)) {
     const value = step.params?.value ? String(step.params.value) : '';
-    await locator.fill(value);
+    const tagName = await locator.evaluate((element) => element.tagName.toLowerCase());
+    if (tagName === 'select') {
+      await locator.selectOption(value);
+    } else {
+      await locator.fill(value);
+    }
   } else if (step.type === 'KEYDOWN') {
     const key = step.params?.key ? String(step.params.key) : 'Enter';
     await locator.press(key);
@@ -87,11 +135,11 @@ const run = async () => {
   const browser = await chromium.launch({ headless: false });
   const page = await browser.newPage();
 
-  if (steps[0]?.preconditions?.urlMatches) {
-    await page.goto(steps[0].preconditions.urlMatches);
+  if (stepsToRun[0]?.preconditions?.urlMatches) {
+    await page.goto(stepsToRun[0].preconditions.urlMatches);
   }
 
-  for (const step of steps) {
+  for (const step of stepsToRun) {
     await performStep(page, step);
   }
 
