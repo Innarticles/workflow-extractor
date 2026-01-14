@@ -1,0 +1,58 @@
+{
+  "name": "localhost",
+  "steps": [
+    {
+      "id": "step-1",
+      "type": "INPUT",
+      "selectors": {
+        "primary": "getByTestId(\"login-email\")",
+        "fallbacks": ["getByLabel(\"Email\")", "locator(\"#email\")"]
+      },
+      "preconditions": {
+        "urlMatches": "http://localhost:3000/demo/index.html"
+      },
+      "params": {
+        "value": "clinician@careflow.demo"
+      }
+    },
+    {
+      "id": "step-2",
+      "type": "INPUT",
+      "selectors": {
+        "primary": "getByTestId(\"login-password\")",
+        "fallbacks": ["getByLabel(\"Password\")", "locator(\"#password\")"]
+      },
+      "preconditions": {
+        "urlMatches": "http://localhost:3000/demo/index.html"
+      },
+      "params": {
+        "value": "demo123"
+      }
+    },
+    {
+      "id": "step-3",
+      "type": "LOGIN",
+      "selectors": {
+        "primary": "getByTestId(\"login-form\")",
+        "fallbacks": ["locator(\"#login-form\")"]
+      },
+      "preconditions": {
+        "urlMatches": "http://localhost:3000/demo/index.html"
+      }
+    },
+    {
+      "id": "step-4",
+      "type": "NAVIGATE",
+      "selectors": {
+        "primary": "page",
+        "fallbacks": []
+      },
+      "preconditions": {
+        "urlMatches": "http://localhost:3000/demo/schedule.html"
+      },
+      "effects": {
+        "urlMatches": "http://localhost:3000/demo/schedule.html"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workflow Extractor Demo - Login</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CareFlow EMR</h1>
+      <p class="badge">Demo Login</p>
+    </header>
+    <main class="card">
+      <form id="login-form" data-testid="login-form">
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="clinician@careflow.demo"
+            data-testid="login-email"
+            required
+          />
+        </div>
+        <div class="form-field">
+          <label for="password">Password</label>
+          <input
+            id="password"
+            name="password"
+            type="password"
+            placeholder="Enter password"
+            data-testid="login-password"
+            required
+          />
+        </div>
+        <button type="submit" data-testid="login-submit">Sign In</button>
+      </form>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

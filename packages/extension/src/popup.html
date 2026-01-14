@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workflow Extractor</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        min-width: 260px;
+        padding: 12px;
+      }
+      button {
+        display: block;
+        margin-bottom: 8px;
+        width: 100%;
+      }
+      .status {
+        font-size: 12px;
+        color: #444;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Workflow Extractor</h3>
+    <button id="start">Start Recording</button>
+    <button id="stop">Stop Recording</button>
+    <button id="export">Export JSON</button>
+    <button id="clear">Clear Recording</button>
+    <div class="status" id="status">Events: 0</div>
+    <script src="popup.js"></script>
+  </body>
+</html>

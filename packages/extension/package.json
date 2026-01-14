@@ -1,0 +1,18 @@
+{
+  "name": "@workflow-extractor/extension",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs --watch",
+    "lint": "eslint src --ext .ts",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.268",
+    "esbuild": "^0.25.0",
+    "jsdom": "^25.0.0",
+    "vitest": "^2.1.8"
+  }
+}

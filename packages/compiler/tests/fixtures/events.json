@@ -1,0 +1,37 @@
+[
+  {
+    "eventType": "click",
+    "timestamp": 1700000000000,
+    "url": "https://example.com/login",
+    "framePath": ["top"],
+    "target": {
+      "tagName": "button",
+      "inputType": null,
+      "id": "submit",
+      "name": null,
+      "classList": ["primary"],
+      "dataAttributes": {
+        "data-testid": "login-submit"
+      },
+      "ariaLabel": "Sign in",
+      "ariaLabelledby": null,
+      "role": "button",
+      "placeholder": null,
+      "title": null,
+      "innerText": "Sign In",
+      "value": null,
+      "boundingClientRect": {
+        "x": 0,
+        "y": 0,
+        "width": 120,
+        "height": 32
+      },
+      "cssPath": "#submit",
+      "xpath": "/html/body/button"
+    },
+    "context": {
+      "parentChain": [],
+      "nearbyLabels": []
+    }
+  }
+]

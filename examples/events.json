@@ -1,0 +1,118 @@
+[
+  {
+    "eventType": "input",
+    "timestamp": 1700000001000,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": ["top"],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "clinician@careflow.demo",
+      "title": null,
+      "innerText": null,
+      "value": "clinician@careflow.demo",
+      "boundingClientRect": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 34
+      },
+      "cssPath": "#email",
+      "xpath": "/html/body/main/form/input[1]"
+    },
+    "context": {
+      "parentChain": [],
+      "nearbyLabels": ["Email"]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1700000002000,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": ["top"],
+    "target": {
+      "tagName": "input",
+      "inputType": "password",
+      "id": "password",
+      "name": "password",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-password"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "Enter password",
+      "title": null,
+      "innerText": null,
+      "value": "demo123",
+      "boundingClientRect": {
+        "x": 0,
+        "y": 0,
+        "width": 300,
+        "height": 34
+      },
+      "cssPath": "#password",
+      "xpath": "/html/body/main/form/input[2]"
+    },
+    "context": {
+      "parentChain": [],
+      "nearbyLabels": ["Password"]
+    }
+  },
+  {
+    "eventType": "submit",
+    "timestamp": 1700000003000,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": ["top"],
+    "target": {
+      "tagName": "form",
+      "inputType": null,
+      "id": "login-form",
+      "name": null,
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-form"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": null,
+      "boundingClientRect": {
+        "x": 0,
+        "y": 0,
+        "width": 400,
+        "height": 200
+      },
+      "cssPath": "#login-form",
+      "xpath": "/html/body/main/form"
+    },
+    "context": {
+      "parentChain": [],
+      "nearbyLabels": []
+    }
+  },
+  {
+    "eventType": "navigate",
+    "timestamp": 1700000004000,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": ["top"],
+    "target": null,
+    "context": {
+      "parentChain": [],
+      "nearbyLabels": []
+    }
+  }
+]

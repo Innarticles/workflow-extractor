@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workflow Extractor Demo - Schedule</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CareFlow EMR</h1>
+      <p class="badge">Schedule Workspace</p>
+    </header>
+
+    <main class="card">
+      <div class="form-field">
+        <label for="doctor">Doctor</label>
+        <select id="doctor" name="doctor" data-testid="doctor-select">
+          <option value="">Select doctor</option>
+          <option value="harris">Dr. Harris</option>
+          <option value="nguyen">Dr. Nguyen</option>
+          <option value="lopez">Dr. Lopez</option>
+        </select>
+      </div>
+      <div class="form-field">
+        <label for="visit-date">Date</label>
+        <input id="visit-date" name="visit-date" type="date" data-testid="date-picker" />
+      </div>
+      <h3>Available Slots</h3>
+      <div class="grid" data-testid="slot-grid">
+        <button class="slot" data-time="09:00" data-testid="slot-0900">09:00 AM</button>
+        <button class="slot" data-time="10:30" data-testid="slot-1030">10:30 AM</button>
+        <button class="slot" data-time="13:00" data-testid="slot-1300">01:00 PM</button>
+        <button class="slot" data-time="15:15" data-testid="slot-1515">03:15 PM</button>
+      </div>
+      <div class="notice" id="confirmation">Appointment saved successfully.</div>
+    </main>
+
+    <div class="modal-backdrop" id="appointment-modal" data-testid="appointment-modal">
+      <div class="modal">
+        <div class="modal-header">
+          <h3>New Appointment</h3>
+          <button class="secondary" id="appointment-close">Dismiss</button>
+        </div>
+        <form id="appointment-form" data-testid="appointment-form">
+          <div class="form-field">
+            <label for="patient-name">Patient Name</label>
+            <input id="patient-name" name="patient-name" type="text" required />
+          </div>
+          <div class="form-field">
+            <label for="reason">Visit Reason</label>
+            <textarea id="reason" name="reason" rows="3" placeholder="Annual checkup"></textarea>
+          </div>
+          <button type="submit" data-testid="appointment-submit">Confirm Appointment</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
