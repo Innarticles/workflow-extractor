@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manage Appointments</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Manage Appointments</h1>
+      <p>Log in to update existing appointments.</p>
+      <a class="home-button" href="index.html">Home</a>
+    </header>
+
+    <main class="card">
+      <form id="manage-login-form" data-testid="manage-login-form">
+        <div class="form-field">
+          <label for="manage-email">Email</label>
+          <input id="manage-email" name="email" type="email" data-testid="manage-email" />
+        </div>
+        <div class="form-field">
+          <label for="manage-password">Password</label>
+          <input
+            id="manage-password"
+            name="password"
+            type="password"
+            data-testid="manage-password"
+          />
+        </div>
+        <button type="submit" data-testid="manage-login-submit">Sign In</button>
+      </form>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

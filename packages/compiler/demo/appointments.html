@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Appointments</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Appointments</h1>
+      <p>Select an appointment to update.</p>
+      <a class="home-button" href="index.html">Home</a>
+    </header>
+
+    <main class="list" data-testid="appointment-list">
+      <div class="appointment-row" data-testid="appointment-row-1">
+        <div class="appointment-meta">
+          <strong>Alex Morgan</strong>
+          <span>Mar 12, 2026 · 10:30 AM · Annual checkup</span>
+        </div>
+        <button
+          type="button"
+          data-testid="appointment-edit-1"
+          data-action="edit-appointment"
+          data-id="1"
+        >
+          Edit
+        </button>
+      </div>
+
+      <div class="appointment-row" data-testid="appointment-row-2">
+        <div class="appointment-meta">
+          <strong>Jordan Lee</strong>
+          <span>Mar 14, 2026 · 1:00 PM · Follow-up</span>
+        </div>
+        <button
+          type="button"
+          data-testid="appointment-edit-2"
+          data-action="edit-appointment"
+          data-id="2"
+        >
+          Edit
+        </button>
+      </div>
+
+      <div class="appointment-row" data-testid="appointment-row-3">
+        <div class="appointment-meta">
+          <strong>Riley Chen</strong>
+          <span>Mar 18, 2026 · 3:15 PM · Lab review</span>
+        </div>
+        <button
+          type="button"
+          data-testid="appointment-edit-3"
+          data-action="edit-appointment"
+          data-id="3"
+        >
+          Edit
+        </button>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

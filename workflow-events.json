@@ -1,0 +1,3026 @@
+[
+  {
+    "eventType": "input",
+    "timestamp": 1770840161972,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "clinician@careflow.demo",
+      "title": null,
+      "innerText": null,
+      "value": "roseadmin",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 219,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#email",
+      "xpath": "/html/body/main/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
+        }
+      ],
+      "nearbyLabels": [
+        "Email"
+      ]
+    }
+  },
+  {
+    "eventType": "change",
+    "timestamp": 1770840161974,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "clinician@careflow.demo",
+      "title": null,
+      "innerText": null,
+      "value": "roseadmin",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 219,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#email",
+      "xpath": "/html/body/main/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
+        }
+      ],
+      "nearbyLabels": [
+        "Email"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1770840161975,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "password",
+      "id": "password",
+      "name": "password",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-password"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "Enter password",
+      "title": null,
+      "innerText": null,
+      "value": "j^ZxrMYJqkv&x8)z",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 289,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#password",
+      "xpath": "/html/body/main/form/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Password"
+        },
+        {
+          "tagName": "form",
+          "id": "login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
+        }
+      ],
+      "nearbyLabels": [
+        "Password"
+      ]
+    }
+  },
+  {
+    "eventType": "change",
+    "timestamp": 1770840161976,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "password",
+      "id": "password",
+      "name": "password",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-password"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "Enter password",
+      "title": null,
+      "innerText": null,
+      "value": "j^ZxrMYJqkv&x8)z",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 289,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#password",
+      "xpath": "/html/body/main/form/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Password"
+        },
+        {
+          "tagName": "form",
+          "id": "login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
+        }
+      ],
+      "nearbyLabels": [
+        "Password"
+      ]
+    }
+  },
+  {
+    "eventType": "click",
+    "timestamp": 1770840162040,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "a",
+      "inputType": null,
+      "id": null,
+      "name": null,
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "manage-demo-link"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": "Manage existing appointments",
+      "value": null,
+      "boundingClientRect": {
+        "x": 44,
+        "y": 385,
+        "width": 217,
+        "height": 18
+      },
+      "cssPath": "html > body > main > p > a",
+      "xpath": "/html/body/main/p/a"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "p",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage existing appointments"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
+        }
+      ],
+      "nearbyLabels": []
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1770840163044,
+    "url": "http://localhost:3000/demo/manage-login.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "manage-email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "manage-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "roseadmin",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 244,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#manage-email",
+      "xpath": "/html/body/main/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "manage-login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+        }
+      ],
+      "nearbyLabels": [
+        "Email"
+      ]
+    }
+  },
+  {
+    "eventType": "change",
+    "timestamp": 1770840163045,
+    "url": "http://localhost:3000/demo/manage-login.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "manage-email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "manage-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "roseadmin",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 244,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#manage-email",
+      "xpath": "/html/body/main/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "manage-login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+        }
+      ],
+      "nearbyLabels": [
+        "Email"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1770840163045,
+    "url": "http://localhost:3000/demo/manage-login.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "password",
+      "id": "manage-password",
+      "name": "password",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "manage-password"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "j^ZxrMYJqkv&x8)z",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 314,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#manage-password",
+      "xpath": "/html/body/main/form/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Password"
+        },
+        {
+          "tagName": "form",
+          "id": "manage-login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+        }
+      ],
+      "nearbyLabels": [
+        "Password"
+      ]
+    }
+  },
+  {
+    "eventType": "change",
+    "timestamp": 1770840163046,
+    "url": "http://localhost:3000/demo/manage-login.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "password",
+      "id": "manage-password",
+      "name": "password",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "manage-password"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "j^ZxrMYJqkv&x8)z",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 314,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#manage-password",
+      "xpath": "/html/body/main/form/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Password"
+        },
+        {
+          "tagName": "form",
+          "id": "manage-login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+        }
+      ],
+      "nearbyLabels": [
+        "Password"
+      ]
+    }
+  },
+  {
+    "eventType": "click",
+    "timestamp": 1770840163116,
+    "url": "http://localhost:3000/demo/manage-login.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "manage-email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "manage-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "roseadmin",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 244,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#manage-email",
+      "xpath": "/html/body/main/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "manage-login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+        }
+      ],
+      "nearbyLabels": [
+        "Email"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1770840164576,
+    "url": "http://localhost:3000/demo/manage-login.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "manage-email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "manage-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 244,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#manage-email",
+      "xpath": "/html/body/main/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "manage-login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+        }
+      ],
+      "nearbyLabels": [
+        "Email"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1770840164868,
+    "url": "http://localhost:3000/demo/manage-login.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "manage-email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "manage-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "a",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 244,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#manage-email",
+      "xpath": "/html/body/main/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "manage-login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+        }
+      ],
+      "nearbyLabels": [
+        "Email"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1770840165113,
+    "url": "http://localhost:3000/demo/manage-login.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "manage-email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "manage-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "aa",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 244,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#manage-email",
+      "xpath": "/html/body/main/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "manage-login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+        }
+      ],
+      "nearbyLabels": [
+        "Email"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1770840166420,
+    "url": "http://localhost:3000/demo/manage-login.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "manage-email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "manage-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "aa@ff.c",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 244,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#manage-email",
+      "xpath": "/html/body/main/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "manage-login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+        }
+      ],
+      "nearbyLabels": [
+        "Email"
+      ]
+    }
+  },
+  {
+    "eventType": "change",
+    "timestamp": 1770840166420,
+    "url": "http://localhost:3000/demo/manage-login.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "manage-email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "manage-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "aa@ff.c",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 244,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#manage-email",
+      "xpath": "/html/body/main/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "manage-login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+        }
+      ],
+      "nearbyLabels": [
+        "Email"
+      ]
+    }
+  },
+  {
+    "eventType": "click",
+    "timestamp": 1770840166885,
+    "url": "http://localhost:3000/demo/manage-login.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "password",
+      "id": "manage-password",
+      "name": "password",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "manage-password"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "j^ZxrMYJqkv&x8)z",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 314,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#manage-password",
+      "xpath": "/html/body/main/form/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Password"
+        },
+        {
+          "tagName": "form",
+          "id": "manage-login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+        }
+      ],
+      "nearbyLabels": [
+        "Password"
+      ]
+    }
+  },
+  {
+    "eventType": "click",
+    "timestamp": 1770840167040,
+    "url": "http://localhost:3000/demo/manage-login.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "password",
+      "id": "manage-password",
+      "name": "password",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "manage-password"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "j^ZxrMYJqkv&x8)z",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 314,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#manage-password",
+      "xpath": "/html/body/main/form/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Password"
+        },
+        {
+          "tagName": "form",
+          "id": "manage-login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+        }
+      ],
+      "nearbyLabels": [
+        "Password"
+      ]
+    }
+  },
+  {
+    "eventType": "click",
+    "timestamp": 1770840167203,
+    "url": "http://localhost:3000/demo/manage-login.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "password",
+      "id": "manage-password",
+      "name": "password",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "manage-password"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "j^ZxrMYJqkv&x8)z",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 314,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#manage-password",
+      "xpath": "/html/body/main/form/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Password"
+        },
+        {
+          "tagName": "form",
+          "id": "manage-login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+        }
+      ],
+      "nearbyLabels": [
+        "Password"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1770840167431,
+    "url": "http://localhost:3000/demo/manage-login.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "password",
+      "id": "manage-password",
+      "name": "password",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "manage-password"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 314,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#manage-password",
+      "xpath": "/html/body/main/form/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Password"
+        },
+        {
+          "tagName": "form",
+          "id": "manage-login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+        }
+      ],
+      "nearbyLabels": [
+        "Password"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1770840167606,
+    "url": "http://localhost:3000/demo/manage-login.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "password",
+      "id": "manage-password",
+      "name": "password",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "manage-password"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "a",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 314,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#manage-password",
+      "xpath": "/html/body/main/form/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Password"
+        },
+        {
+          "tagName": "form",
+          "id": "manage-login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+        }
+      ],
+      "nearbyLabels": [
+        "Password"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1770840167775,
+    "url": "http://localhost:3000/demo/manage-login.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "password",
+      "id": "manage-password",
+      "name": "password",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "manage-password"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "aa",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 314,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#manage-password",
+      "xpath": "/html/body/main/form/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Password"
+        },
+        {
+          "tagName": "form",
+          "id": "manage-login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+        }
+      ],
+      "nearbyLabels": [
+        "Password"
+      ]
+    }
+  },
+  {
+    "eventType": "change",
+    "timestamp": 1770840168440,
+    "url": "http://localhost:3000/demo/manage-login.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "password",
+      "id": "manage-password",
+      "name": "password",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "manage-password"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "aa",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 314,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#manage-password",
+      "xpath": "/html/body/main/form/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Password"
+        },
+        {
+          "tagName": "form",
+          "id": "manage-login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+        }
+      ],
+      "nearbyLabels": [
+        "Password"
+      ]
+    }
+  },
+  {
+    "eventType": "click",
+    "timestamp": 1770840168520,
+    "url": "http://localhost:3000/demo/manage-login.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "button",
+      "inputType": null,
+      "id": null,
+      "name": null,
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "manage-login-submit"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": "Sign In",
+      "value": null,
+      "boundingClientRect": {
+        "x": 44,
+        "y": 362,
+        "width": 64,
+        "height": 32
+      },
+      "cssPath": "form#manage-login-form > button",
+      "xpath": "/html/body/main/form/button"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "form",
+          "id": "manage-login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+        }
+      ],
+      "nearbyLabels": []
+    }
+  },
+  {
+    "eventType": "submit",
+    "timestamp": 1770840168521,
+    "url": "http://localhost:3000/demo/manage-login.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "form",
+      "inputType": null,
+      "id": "manage-login-form",
+      "name": null,
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "manage-login-form"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": "Email Password Sign In",
+      "value": null,
+      "boundingClientRect": {
+        "x": 44,
+        "y": 222,
+        "width": 520,
+        "height": 172
+      },
+      "cssPath": "#manage-login-form",
+      "xpath": "/html/body/main/form"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+        }
+      ],
+      "nearbyLabels": []
+    }
+  },
+  {
+    "eventType": "click",
+    "timestamp": 1770840170474,
+    "url": "http://localhost:3000/demo/appointments.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "button",
+      "inputType": null,
+      "id": null,
+      "name": null,
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "appointment-edit-2",
+        "data-action": "edit-appointment",
+        "data-id": "2"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": "Edit",
+      "value": null,
+      "boundingClientRect": {
+        "x": 680,
+        "y": 301,
+        "width": 44,
+        "height": 32
+      },
+      "cssPath": "html > body > main > div:nth-of-type(2) > button",
+      "xpath": "/html/body/main/div[2]/button"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "appointment-row"
+          ],
+          "role": null,
+          "textSnippet": "Jordan Lee Mar 14, 2026 · 1:00 PM · Follow-up Edit"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "list"
+          ],
+          "role": null,
+          "textSnippet": "Alex Morgan Mar 12, 2026 · 10:30 AM · Annual checkup Edit Jordan Lee Mar 14, 202…"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Appointments Select an appointment to update. Home Alex Morgan Mar 12, 2026 · 10…"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Appointments Appointments Select an appointment to update. Home Alex Morgan Mar …"
+        }
+      ],
+      "nearbyLabels": []
+    }
+  },
+  {
+    "eventType": "click",
+    "timestamp": 1770840174414,
+    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "select",
+      "inputType": null,
+      "id": "visit-time",
+      "name": "visit-time",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "edit-visit-time"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": "09:00 AM 10:30 AM 01:00 PM 03:15 PM",
+      "value": "10:30",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 386,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#visit-time",
+      "xpath": "/html/body/main/form/div[3]/select"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM"
+        },
+        {
+          "tagName": "form",
+          "id": "edit-appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
+        }
+      ],
+      "nearbyLabels": [
+        "Visit Time"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1770840175998,
+    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "select",
+      "inputType": null,
+      "id": "visit-time",
+      "name": "visit-time",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "edit-visit-time"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": "09:00 AM 10:30 AM 01:00 PM 03:15 PM",
+      "value": "15:15",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 386,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#visit-time",
+      "xpath": "/html/body/main/form/div[3]/select"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM"
+        },
+        {
+          "tagName": "form",
+          "id": "edit-appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
+        }
+      ],
+      "nearbyLabels": [
+        "Visit Time"
+      ]
+    }
+  },
+  {
+    "eventType": "change",
+    "timestamp": 1770840176000,
+    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "select",
+      "inputType": null,
+      "id": "visit-time",
+      "name": "visit-time",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "edit-visit-time"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": "09:00 AM 10:30 AM 01:00 PM 03:15 PM",
+      "value": "15:15",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 386,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#visit-time",
+      "xpath": "/html/body/main/form/div[3]/select"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM"
+        },
+        {
+          "tagName": "form",
+          "id": "edit-appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
+        }
+      ],
+      "nearbyLabels": [
+        "Visit Time"
+      ]
+    }
+  },
+  {
+    "eventType": "click",
+    "timestamp": 1770840176000,
+    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "select",
+      "inputType": null,
+      "id": "visit-time",
+      "name": "visit-time",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "edit-visit-time"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": "09:00 AM 10:30 AM 01:00 PM 03:15 PM",
+      "value": "15:15",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 386,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#visit-time",
+      "xpath": "/html/body/main/form/div[3]/select"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM"
+        },
+        {
+          "tagName": "form",
+          "id": "edit-appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
+        }
+      ],
+      "nearbyLabels": [
+        "Visit Time"
+      ]
+    }
+  },
+  {
+    "eventType": "click",
+    "timestamp": 1770840177714,
+    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "date",
+      "id": "visit-date",
+      "name": "visit-date",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "edit-visit-date"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "2026-03-12",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 314,
+        "width": 520,
+        "height": 39
+      },
+      "cssPath": "#visit-date",
+      "xpath": "/html/body/main/form/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Visit Date"
+        },
+        {
+          "tagName": "form",
+          "id": "edit-appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
+        }
+      ],
+      "nearbyLabels": [
+        "Visit Date"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1770840179419,
+    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "date",
+      "id": "visit-date",
+      "name": "visit-date",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "edit-visit-date"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "2026-03-26",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 314,
+        "width": 520,
+        "height": 39
+      },
+      "cssPath": "#visit-date",
+      "xpath": "/html/body/main/form/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Visit Date"
+        },
+        {
+          "tagName": "form",
+          "id": "edit-appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
+        }
+      ],
+      "nearbyLabels": [
+        "Visit Date"
+      ]
+    }
+  },
+  {
+    "eventType": "change",
+    "timestamp": 1770840179422,
+    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "date",
+      "id": "visit-date",
+      "name": "visit-date",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "edit-visit-date"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "2026-03-26",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 314,
+        "width": 520,
+        "height": 39
+      },
+      "cssPath": "#visit-date",
+      "xpath": "/html/body/main/form/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Visit Date"
+        },
+        {
+          "tagName": "form",
+          "id": "edit-appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
+        }
+      ],
+      "nearbyLabels": [
+        "Visit Date"
+      ]
+    }
+  },
+  {
+    "eventType": "click",
+    "timestamp": 1770840181444,
+    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "textarea",
+      "inputType": "textarea",
+      "id": "visit-reason",
+      "name": "visit-reason",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "edit-visit-reason"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": "Annual checkup",
+      "value": "Annual checkup",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 456,
+        "width": 520,
+        "height": 68
+      },
+      "cssPath": "#visit-reason",
+      "xpath": "/html/body/main/form/div[4]/textarea"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Visit Reason Annual checkup"
+        },
+        {
+          "tagName": "form",
+          "id": "edit-appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
+        }
+      ],
+      "nearbyLabels": [
+        "Visit Reason"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1770840181923,
+    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "textarea",
+      "inputType": "textarea",
+      "id": "visit-reason",
+      "name": "visit-reason",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "edit-visit-reason"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": "Annual checkup",
+      "value": "Annual checkup1",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 456,
+        "width": 520,
+        "height": 68
+      },
+      "cssPath": "#visit-reason",
+      "xpath": "/html/body/main/form/div[4]/textarea"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Visit Reason Annual checkup"
+        },
+        {
+          "tagName": "form",
+          "id": "edit-appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
+        }
+      ],
+      "nearbyLabels": [
+        "Visit Reason"
+      ]
+    }
+  },
+  {
+    "eventType": "change",
+    "timestamp": 1770840183138,
+    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "textarea",
+      "inputType": "textarea",
+      "id": "visit-reason",
+      "name": "visit-reason",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "edit-visit-reason"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": "Annual checkup",
+      "value": "Annual checkup1",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 456,
+        "width": 520,
+        "height": 68
+      },
+      "cssPath": "#visit-reason",
+      "xpath": "/html/body/main/form/div[4]/textarea"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Visit Reason Annual checkup"
+        },
+        {
+          "tagName": "form",
+          "id": "edit-appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
+        }
+      ],
+      "nearbyLabels": [
+        "Visit Reason"
+      ]
+    }
+  },
+  {
+    "eventType": "click",
+    "timestamp": 1770840183222,
+    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "button",
+      "inputType": null,
+      "id": null,
+      "name": null,
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "edit-appointment-submit"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": "Save Changes",
+      "value": null,
+      "boundingClientRect": {
+        "x": 44,
+        "y": 535,
+        "width": 112,
+        "height": 32
+      },
+      "cssPath": "form#edit-appointment-form > button",
+      "xpath": "/html/body/main/form/button"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "form",
+          "id": "edit-appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
+        }
+      ],
+      "nearbyLabels": []
+    }
+  },
+  {
+    "eventType": "submit",
+    "timestamp": 1770840183223,
+    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "form",
+      "inputType": null,
+      "id": "edit-appointment-form",
+      "name": null,
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "edit-appointment-form"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…",
+      "value": null,
+      "boundingClientRect": {
+        "x": 44,
+        "y": 222,
+        "width": 520,
+        "height": 346
+      },
+      "cssPath": "#edit-appointment-form",
+      "xpath": "/html/body/main/form"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
+        }
+      ],
+      "nearbyLabels": []
+    }
+  }
+]

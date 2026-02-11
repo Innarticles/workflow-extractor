@@ -4,8 +4,7 @@ export type EvidenceEventType =
   | 'change'
   | 'keydown'
   | 'submit'
-  | 'navigate'
-  | 'focus';
+  | 'navigate';
 
 export type BoundingRect = {
   x: number;

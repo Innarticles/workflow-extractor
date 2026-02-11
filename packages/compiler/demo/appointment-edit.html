@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Appointment</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Edit Appointment</h1>
+      <p>Update the visit details and submit.</p>
+      <a class="home-button" href="index.html">Home</a>
+    </header>
+
+    <main class="card">
+      <form id="edit-appointment-form" data-testid="edit-appointment-form">
+        <div class="form-field">
+          <label for="patient-name">Patient Name</label>
+          <input
+            id="patient-name"
+            name="patient-name"
+            type="text"
+            data-testid="edit-patient-name"
+            value="Alex Morgan"
+          />
+        </div>
+
+        <div class="form-field">
+          <label for="visit-date">Visit Date</label>
+          <input
+            id="visit-date"
+            name="visit-date"
+            type="date"
+            data-testid="edit-visit-date"
+            value="2026-03-12"
+          />
+        </div>
+
+        <div class="form-field">
+          <label for="visit-time">Visit Time</label>
+          <select id="visit-time" name="visit-time" data-testid="edit-visit-time">
+            <option value="09:00">09:00 AM</option>
+            <option value="10:30" selected>10:30 AM</option>
+            <option value="13:00">01:00 PM</option>
+            <option value="15:15">03:15 PM</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label for="visit-reason">Visit Reason</label>
+          <textarea
+            id="visit-reason"
+            name="visit-reason"
+            rows="3"
+            data-testid="edit-visit-reason"
+          >Annual checkup</textarea>
+        </div>
+
+        <button type="submit" data-testid="edit-appointment-submit">Save Changes</button>
+      </form>
+
+      <div class="notice" id="edit-confirmation" data-testid="edit-confirmation">
+        Appointment updated successfully.
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

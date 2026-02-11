@@ -54,7 +54,7 @@ exportButton?.addEventListener('click', async () => {
     type: 'application/json',
   });
   const url = URL.createObjectURL(blob);
-  const filename = `workflow-events-${Date.now()}.json`;
+  const filename = 'workflow-events.json';
 
   chrome.downloads.download({ url, filename, saveAs: true }, () => {
     URL.revokeObjectURL(url);

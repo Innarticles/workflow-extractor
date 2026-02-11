@@ -22,6 +22,7 @@ type Step = {
 };
 
 const stepDelayMs = 500;
+const locatorWaitTimeoutMs = 8000;
 const steps: Step[] = ${steps};
 
 const hasMatchingSelectors = (left: SelectorBundle, right: SelectorBundle) => {
@@ -47,16 +48,7 @@ const shouldSkipFocusStep = (step: Step, nextStep?: Step) => {
   );
 };
 
-const shouldSkipLoginStep = (step: Step, previousStep?: Step) => {
-  if (step.type !== 'LOGIN' || !previousStep) {
-    return false;
-  }
-
-  return (
-    previousStep.type === 'CLICK' &&
-    hasMatchingSelectors(step.selectors, previousStep.selectors)
-  );
-};
+// No app-specific step types are emitted. Keep only generic types.
 
 const stepsToRun = steps.filter((step, index) => {
   if (shouldSkipFocusStep(step, steps[index + 1])) {
@@ -64,7 +56,12 @@ const stepsToRun = steps.filter((step, index) => {
   }
 
   const previousStep = index > 0 ? steps[index - 1] : undefined;
-  if (shouldSkipLoginStep(step, previousStep)) {
+  if (
+    step.type === 'SUBMIT' &&
+    previousStep?.type === 'CLICK' &&
+    (hasMatchingSelectors(step.selectors, previousStep.selectors) ||
+      step.preconditions?.urlMatches === previousStep.preconditions?.urlMatches)
+  ) {
     return false;
   }
 
@@ -80,8 +77,11 @@ const resolveLocator = async (page: any, bundle: SelectorBundle) => {
   const candidates = [bundle.primary, ...bundle.fallbacks];
   for (const candidate of candidates) {
     const locator = createLocator(page, candidate);
-    if ((await locator.count()) > 0) {
+    try {
+      await locator.waitFor({ state: 'visible', timeout: locatorWaitTimeoutMs });
       return locator;
+    } catch {
+      // Try the next selector candidate.
     }
   }
   throw new Error('No locator found for: ' + bundle.primary);
@@ -93,6 +93,7 @@ const performStep = async (page: any, step: Step) => {
   if (step.type === 'NAVIGATE') {
     if (step.effects?.urlMatches) {
       await page.waitForURL(step.effects.urlMatches, { waitUntil: 'load' });
+      await page.waitForLoadState('networkidle');
     }
     return;
   }
@@ -100,7 +101,7 @@ const performStep = async (page: any, step: Step) => {
   const locator = await resolveLocator(page, step.selectors);
   await locator.waitFor({ state: 'visible' });
 
-  if (['CLICK', 'CLICK_SLOT', 'DISMISS_POPUP'].includes(step.type)) {
+  if (['CLICK'].includes(step.type)) {
     await locator.click();
   } else if (['INPUT', 'CHANGE'].includes(step.type)) {
     const value = step.params?.value ? String(step.params.value) : '';
@@ -113,7 +114,7 @@ const performStep = async (page: any, step: Step) => {
   } else if (step.type === 'KEYDOWN') {
     const key = step.params?.key ? String(step.params.key) : 'Enter';
     await locator.press(key);
-  } else if (['LOGIN', 'FILL_FORM', 'SUBMIT'].includes(step.type)) {
+  } else if (step.type === 'SUBMIT') {
     await locator.click();
     await page.keyboard.press('Enter');
   } else {
@@ -126,6 +127,7 @@ const performStep = async (page: any, step: Step) => {
 
   if (step.effects?.urlMatches) {
     await page.waitForURL(step.effects.urlMatches, { waitUntil: 'load' });
+    await page.waitForLoadState('networkidle');
   }
 
   await page.waitForTimeout(stepDelayMs);

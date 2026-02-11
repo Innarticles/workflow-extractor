@@ -2,20 +2,8 @@ import { Step } from './flow-types.js';
 import { buildSelectorBundle } from './selectors.js';
 import { EvidenceEvent } from './types.js';
 
-const isDismissText = (value: string | null) =>
-  !!value && /\b(close|dismiss|cancel|x)\b/i.test(value.trim());
-
-const isSlotText = (value: string | null) =>
-  !!value && /(\b\d{1,2}:\d{2}\b|\b(am|pm)\b)/i.test(value);
-
-const getEventLabel = (event: EvidenceEvent) =>
-  event.target?.ariaLabel || event.target?.innerText || event.context.nearbyLabels[0] || null;
-
 const getFieldKey = (event: EvidenceEvent) =>
   event.target?.name || event.target?.id || event.target?.placeholder || event.target?.tagName || '';
-
-const isLoginSequence = (events: EvidenceEvent[]) =>
-  events.some((event) => event.target?.inputType === 'password');
 
 const buildParams = (
   event: EvidenceEvent,
@@ -34,9 +22,45 @@ const buildParams = (
 export const segmentEvents = (events: EvidenceEvent[]): Step[] => {
   const steps: Step[] = [];
   const recentInputs: EvidenceEvent[] = [];
+  const pendingInputs = new Map<string, EvidenceEvent>();
+  const pendingInputOrder: string[] = [];
 
-  events.forEach((event, index) => {
-    const id = `step-${index + 1}`;
+  const queuePendingInputs = () => {
+    for (const key of pendingInputOrder) {
+      const pending = pendingInputs.get(key);
+      if (!pending) {
+        continue;
+      }
+
+      steps.push({
+        id: `step-${steps.length + 1}`,
+        type: 'INPUT',
+        selectors: buildSelectorBundle(pending),
+        preconditions: pending.url ? { urlMatches: pending.url } : undefined,
+        effects: pending.eventType === 'navigate' ? { urlMatches: pending.url } : undefined,
+        params: buildParams(pending),
+      });
+    }
+
+    pendingInputs.clear();
+    pendingInputOrder.length = 0;
+  };
+
+  const trackPendingInput = (event: EvidenceEvent) => {
+    const fieldKey = getFieldKey(event);
+    if (!fieldKey) {
+      return;
+    }
+
+    pendingInputs.set(fieldKey, event);
+    const existingIndex = pendingInputOrder.indexOf(fieldKey);
+    if (existingIndex >= 0) {
+      pendingInputOrder.splice(existingIndex, 1);
+    }
+    pendingInputOrder.push(fieldKey);
+  };
+
+  events.forEach((event) => {
     let type = event.eventType.toUpperCase();
 
     if (event.eventType === 'input' || event.eventType === 'change') {
@@ -44,20 +68,26 @@ export const segmentEvents = (events: EvidenceEvent[]): Step[] => {
     }
 
     if (event.eventType === 'submit' || event.eventType === 'keydown') {
-      const fieldKeys = new Set(recentInputs.map(getFieldKey).filter(Boolean));
-      if (fieldKeys.size >= 2) {
-        type = isLoginSequence(recentInputs) ? 'LOGIN' : 'FILL_FORM';
-      }
+      queuePendingInputs();
       recentInputs.length = 0;
     }
 
-    if (event.eventType === 'click') {
-      const label = getEventLabel(event);
-      if (isDismissText(label)) {
-        type = 'DISMISS_POPUP';
-      } else if (isSlotText(label) || event.target?.classList.some((value) => /slot/i.test(value))) {
-        type = 'CLICK_SLOT';
+    if (event.eventType === 'input') {
+      trackPendingInput(event);
+      return;
+    }
+
+    if (event.eventType === 'change') {
+      const fieldKey = getFieldKey(event);
+      if (fieldKey) {
+        pendingInputs.delete(fieldKey);
+        const existingIndex = pendingInputOrder.indexOf(fieldKey);
+        if (existingIndex >= 0) {
+          pendingInputOrder.splice(existingIndex, 1);
+        }
       }
+    } else {
+      queuePendingInputs();
     }
 
     if (event.eventType === 'navigate') {
@@ -65,7 +95,7 @@ export const segmentEvents = (events: EvidenceEvent[]): Step[] => {
     }
 
     steps.push({
-      id,
+      id: `step-${steps.length + 1}`,
       type,
       selectors: buildSelectorBundle(event),
       preconditions: event.url ? { urlMatches: event.url } : undefined,
@@ -73,6 +103,8 @@ export const segmentEvents = (events: EvidenceEvent[]): Step[] => {
       params: buildParams(event),
     });
   });
+
+  queuePendingInputs();
 
   return steps;
 };

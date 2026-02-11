@@ -38,8 +38,10 @@ const normalizePath = (url) => {
 };
 
 const server = createServer(async (request, response) => {
-  const url = request.url ?? '/';
-  const normalized = normalizePath(url);
+  const requestUrl = request.url ?? '/';
+  const host = request.headers.host ?? `localhost:${port}`;
+  const { pathname } = new URL(requestUrl, `http://${host}`);
+  const normalized = normalizePath(pathname);
   const filePath = join(root, normalized);
   await serveFile(filePath, response);
 });

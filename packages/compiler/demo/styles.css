@@ -96,6 +96,17 @@ button.secondary {
   font-size: 12px;
 }
 
+.home-button {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  background: #2563eb;
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+}
+
 .notice {
   margin-top: 16px;
   padding: 12px;
@@ -103,4 +114,36 @@ button.secondary {
   border-radius: 6px;
   color: #166534;
   display: none;
+}
+
+.list {
+  display: grid;
+  gap: 12px;
+  max-width: 720px;
+}
+
+.appointment-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.appointment-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.appointment-meta strong {
+  font-size: 15px;
+}
+
+.appointment-meta span {
+  font-size: 13px;
+  color: #4b5563;
 }
