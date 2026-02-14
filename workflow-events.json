@@ -1,7 +1,7 @@
 [
   {
     "eventType": "input",
-    "timestamp": 1770840161972,
+    "timestamp": 1771090817810,
     "url": "http://localhost:3000/demo/index.html",
     "framePath": [
       "top"
@@ -85,7 +85,7 @@
   },
   {
     "eventType": "change",
-    "timestamp": 1770840161974,
+    "timestamp": 1771090817812,
     "url": "http://localhost:3000/demo/index.html",
     "framePath": [
       "top"
@@ -169,7 +169,7 @@
   },
   {
     "eventType": "input",
-    "timestamp": 1770840161975,
+    "timestamp": 1771090817812,
     "url": "http://localhost:3000/demo/index.html",
     "framePath": [
       "top"
@@ -253,7 +253,7 @@
   },
   {
     "eventType": "change",
-    "timestamp": 1770840161976,
+    "timestamp": 1771090817813,
     "url": "http://localhost:3000/demo/index.html",
     "framePath": [
       "top"
@@ -337,45 +337,55 @@
   },
   {
     "eventType": "click",
-    "timestamp": 1770840162040,
+    "timestamp": 1771090817817,
     "url": "http://localhost:3000/demo/index.html",
     "framePath": [
       "top"
     ],
     "target": {
-      "tagName": "a",
-      "inputType": null,
-      "id": null,
-      "name": null,
+      "tagName": "input",
+      "inputType": "email",
+      "id": "email",
+      "name": "email",
       "classList": [],
       "dataAttributes": {
-        "data-testid": "manage-demo-link"
+        "data-testid": "login-email"
       },
       "ariaLabel": null,
       "ariaLabelledby": null,
       "role": null,
-      "placeholder": null,
+      "placeholder": "clinician@careflow.demo",
       "title": null,
-      "innerText": "Manage existing appointments",
-      "value": null,
+      "innerText": null,
+      "value": "roseadmin",
       "boundingClientRect": {
         "x": 44,
-        "y": 385,
-        "width": 217,
-        "height": 18
+        "y": 219,
+        "width": 520,
+        "height": 36
       },
-      "cssPath": "html > body > main > p > a",
-      "xpath": "/html/body/main/p/a"
+      "cssPath": "#email",
+      "xpath": "/html/body/main/form/div[1]/input"
     },
     "context": {
       "parentChain": [
         {
-          "tagName": "p",
+          "tagName": "div",
           "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "login-form",
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage existing appointments"
+          "textSnippet": "Email Password Sign In"
         },
         {
           "tagName": "main",
@@ -404,39 +414,41 @@
           "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
         }
       ],
-      "nearbyLabels": []
+      "nearbyLabels": [
+        "Email"
+      ]
     }
   },
   {
-    "eventType": "input",
-    "timestamp": 1770840163044,
-    "url": "http://localhost:3000/demo/manage-login.html",
+    "eventType": "click",
+    "timestamp": 1771090817885,
+    "url": "http://localhost:3000/demo/index.html",
     "framePath": [
       "top"
     ],
     "target": {
       "tagName": "input",
       "inputType": "email",
-      "id": "manage-email",
+      "id": "email",
       "name": "email",
       "classList": [],
       "dataAttributes": {
-        "data-testid": "manage-email"
+        "data-testid": "login-email"
       },
       "ariaLabel": null,
       "ariaLabelledby": null,
       "role": null,
-      "placeholder": null,
+      "placeholder": "clinician@careflow.demo",
       "title": null,
       "innerText": null,
       "value": "roseadmin",
       "boundingClientRect": {
         "x": 44,
-        "y": 244,
+        "y": 219,
         "width": 520,
         "height": 36
       },
-      "cssPath": "#manage-email",
+      "cssPath": "#email",
       "xpath": "/html/body/main/form/div[1]/input"
     },
     "context": {
@@ -453,7 +465,7 @@
         },
         {
           "tagName": "form",
-          "id": "manage-login-form",
+          "id": "login-form",
           "name": null,
           "classList": [],
           "role": null,
@@ -467,7 +479,7 @@
             "card"
           ],
           "role": null,
-          "textSnippet": "Email Password Sign In"
+          "textSnippet": "Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "body",
@@ -475,7 +487,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "html",
@@ -483,7 +495,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
         }
       ],
       "nearbyLabels": [
@@ -492,35 +504,35 @@
     }
   },
   {
-    "eventType": "change",
-    "timestamp": 1770840163045,
-    "url": "http://localhost:3000/demo/manage-login.html",
+    "eventType": "input",
+    "timestamp": 1771090818357,
+    "url": "http://localhost:3000/demo/index.html",
     "framePath": [
       "top"
     ],
     "target": {
       "tagName": "input",
       "inputType": "email",
-      "id": "manage-email",
+      "id": "email",
       "name": "email",
       "classList": [],
       "dataAttributes": {
-        "data-testid": "manage-email"
+        "data-testid": "login-email"
       },
       "ariaLabel": null,
       "ariaLabelledby": null,
       "role": null,
-      "placeholder": null,
+      "placeholder": "clinician@careflow.demo",
       "title": null,
       "innerText": null,
-      "value": "roseadmin",
+      "value": "s",
       "boundingClientRect": {
         "x": 44,
-        "y": 244,
+        "y": 219,
         "width": 520,
         "height": 36
       },
-      "cssPath": "#manage-email",
+      "cssPath": "#email",
       "xpath": "/html/body/main/form/div[1]/input"
     },
     "context": {
@@ -537,7 +549,7 @@
         },
         {
           "tagName": "form",
-          "id": "manage-login-form",
+          "id": "login-form",
           "name": null,
           "classList": [],
           "role": null,
@@ -551,7 +563,7 @@
             "card"
           ],
           "role": null,
-          "textSnippet": "Email Password Sign In"
+          "textSnippet": "Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "body",
@@ -559,7 +571,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "html",
@@ -567,7 +579,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
         }
       ],
       "nearbyLabels": [
@@ -577,35 +589,35 @@
   },
   {
     "eventType": "input",
-    "timestamp": 1770840163045,
-    "url": "http://localhost:3000/demo/manage-login.html",
+    "timestamp": 1771090818405,
+    "url": "http://localhost:3000/demo/index.html",
     "framePath": [
       "top"
     ],
     "target": {
       "tagName": "input",
-      "inputType": "password",
-      "id": "manage-password",
-      "name": "password",
+      "inputType": "email",
+      "id": "email",
+      "name": "email",
       "classList": [],
       "dataAttributes": {
-        "data-testid": "manage-password"
+        "data-testid": "login-email"
       },
       "ariaLabel": null,
       "ariaLabelledby": null,
       "role": null,
-      "placeholder": null,
+      "placeholder": "clinician@careflow.demo",
       "title": null,
       "innerText": null,
-      "value": "j^ZxrMYJqkv&x8)z",
+      "value": "sd",
       "boundingClientRect": {
         "x": 44,
-        "y": 314,
+        "y": 219,
         "width": 520,
         "height": 36
       },
-      "cssPath": "#manage-password",
-      "xpath": "/html/body/main/form/div[2]/input"
+      "cssPath": "#email",
+      "xpath": "/html/body/main/form/div[1]/input"
     },
     "context": {
       "parentChain": [
@@ -617,11 +629,11 @@
             "form-field"
           ],
           "role": null,
-          "textSnippet": "Password"
+          "textSnippet": "Email"
         },
         {
           "tagName": "form",
-          "id": "manage-login-form",
+          "id": "login-form",
           "name": null,
           "classList": [],
           "role": null,
@@ -635,7 +647,7 @@
             "card"
           ],
           "role": null,
-          "textSnippet": "Email Password Sign In"
+          "textSnippet": "Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "body",
@@ -643,7 +655,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "html",
@@ -651,44 +663,1052 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
         }
       ],
       "nearbyLabels": [
-        "Password"
+        "Email"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090818513,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "clinician@careflow.demo",
+      "title": null,
+      "innerText": null,
+      "value": "sdf",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 219,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#email",
+      "xpath": "/html/body/main/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
+        }
+      ],
+      "nearbyLabels": [
+        "Email"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090818591,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "clinician@careflow.demo",
+      "title": null,
+      "innerText": null,
+      "value": "sdfd",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 219,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#email",
+      "xpath": "/html/body/main/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
+        }
+      ],
+      "nearbyLabels": [
+        "Email"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090819637,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "clinician@careflow.demo",
+      "title": null,
+      "innerText": null,
+      "value": "sdfd!",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 219,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#email",
+      "xpath": "/html/body/main/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
+        }
+      ],
+      "nearbyLabels": [
+        "Email"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090820491,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "clinician@careflow.demo",
+      "title": null,
+      "innerText": null,
+      "value": "sdfd",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 219,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#email",
+      "xpath": "/html/body/main/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
+        }
+      ],
+      "nearbyLabels": [
+        "Email"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090821073,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "clinician@careflow.demo",
+      "title": null,
+      "innerText": null,
+      "value": "sdfd@",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 219,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#email",
+      "xpath": "/html/body/main/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
+        }
+      ],
+      "nearbyLabels": [
+        "Email"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090821679,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "clinician@careflow.demo",
+      "title": null,
+      "innerText": null,
+      "value": "sdfd@d",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 219,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#email",
+      "xpath": "/html/body/main/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
+        }
+      ],
+      "nearbyLabels": [
+        "Email"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090821932,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "clinician@careflow.demo",
+      "title": null,
+      "innerText": null,
+      "value": "sdfd@dd",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 219,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#email",
+      "xpath": "/html/body/main/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
+        }
+      ],
+      "nearbyLabels": [
+        "Email"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090821988,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "clinician@careflow.demo",
+      "title": null,
+      "innerText": null,
+      "value": "sdfd@ddf",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 219,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#email",
+      "xpath": "/html/body/main/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
+        }
+      ],
+      "nearbyLabels": [
+        "Email"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090822084,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "clinician@careflow.demo",
+      "title": null,
+      "innerText": null,
+      "value": "sdfd@ddfd",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 219,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#email",
+      "xpath": "/html/body/main/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
+        }
+      ],
+      "nearbyLabels": [
+        "Email"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090822368,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "clinician@careflow.demo",
+      "title": null,
+      "innerText": null,
+      "value": "sdfd@ddfd.",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 219,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#email",
+      "xpath": "/html/body/main/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
+        }
+      ],
+      "nearbyLabels": [
+        "Email"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090822598,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "clinician@careflow.demo",
+      "title": null,
+      "innerText": null,
+      "value": "sdfd@ddfd.c",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 219,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#email",
+      "xpath": "/html/body/main/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
+        }
+      ],
+      "nearbyLabels": [
+        "Email"
       ]
     }
   },
   {
     "eventType": "change",
-    "timestamp": 1770840163046,
-    "url": "http://localhost:3000/demo/manage-login.html",
+    "timestamp": 1771090823737,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "email",
+      "id": "email",
+      "name": "email",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-email"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "clinician@careflow.demo",
+      "title": null,
+      "innerText": null,
+      "value": "sdfd@ddfd.c",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 219,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#email",
+      "xpath": "/html/body/main/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Email"
+        },
+        {
+          "tagName": "form",
+          "id": "login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
+        }
+      ],
+      "nearbyLabels": [
+        "Email"
+      ]
+    }
+  },
+  {
+    "eventType": "click",
+    "timestamp": 1771090823828,
+    "url": "http://localhost:3000/demo/index.html",
     "framePath": [
       "top"
     ],
     "target": {
       "tagName": "input",
       "inputType": "password",
-      "id": "manage-password",
+      "id": "password",
       "name": "password",
       "classList": [],
       "dataAttributes": {
-        "data-testid": "manage-password"
+        "data-testid": "login-password"
       },
       "ariaLabel": null,
       "ariaLabelledby": null,
       "role": null,
-      "placeholder": null,
+      "placeholder": "Enter password",
       "title": null,
       "innerText": null,
       "value": "j^ZxrMYJqkv&x8)z",
       "boundingClientRect": {
         "x": 44,
-        "y": 314,
+        "y": 289,
         "width": 520,
         "height": 36
       },
-      "cssPath": "#manage-password",
+      "cssPath": "#password",
       "xpath": "/html/body/main/form/div[2]/input"
     },
     "context": {
@@ -705,7 +1725,7 @@
         },
         {
           "tagName": "form",
-          "id": "manage-login-form",
+          "id": "login-form",
           "name": null,
           "classList": [],
           "role": null,
@@ -719,7 +1739,7 @@
             "card"
           ],
           "role": null,
-          "textSnippet": "Email Password Sign In"
+          "textSnippet": "Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "body",
@@ -727,7 +1747,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "html",
@@ -735,7 +1755,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
         }
       ],
       "nearbyLabels": [
@@ -745,35 +1765,35 @@
   },
   {
     "eventType": "click",
-    "timestamp": 1770840163116,
-    "url": "http://localhost:3000/demo/manage-login.html",
+    "timestamp": 1771090823982,
+    "url": "http://localhost:3000/demo/index.html",
     "framePath": [
       "top"
     ],
     "target": {
       "tagName": "input",
-      "inputType": "email",
-      "id": "manage-email",
-      "name": "email",
+      "inputType": "password",
+      "id": "password",
+      "name": "password",
       "classList": [],
       "dataAttributes": {
-        "data-testid": "manage-email"
+        "data-testid": "login-password"
       },
       "ariaLabel": null,
       "ariaLabelledby": null,
       "role": null,
-      "placeholder": null,
+      "placeholder": "Enter password",
       "title": null,
       "innerText": null,
-      "value": "roseadmin",
+      "value": "j^ZxrMYJqkv&x8)z",
       "boundingClientRect": {
         "x": 44,
-        "y": 244,
+        "y": 289,
         "width": 520,
         "height": 36
       },
-      "cssPath": "#manage-email",
-      "xpath": "/html/body/main/form/div[1]/input"
+      "cssPath": "#password",
+      "xpath": "/html/body/main/form/div[2]/input"
     },
     "context": {
       "parentChain": [
@@ -785,11 +1805,11 @@
             "form-field"
           ],
           "role": null,
-          "textSnippet": "Email"
+          "textSnippet": "Password"
         },
         {
           "tagName": "form",
-          "id": "manage-login-form",
+          "id": "login-form",
           "name": null,
           "classList": [],
           "role": null,
@@ -803,7 +1823,7 @@
             "card"
           ],
           "role": null,
-          "textSnippet": "Email Password Sign In"
+          "textSnippet": "Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "body",
@@ -811,7 +1831,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "html",
@@ -819,464 +1839,128 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
         }
       ],
       "nearbyLabels": [
-        "Email"
+        "Password"
       ]
     }
   },
   {
-    "eventType": "input",
-    "timestamp": 1770840164576,
-    "url": "http://localhost:3000/demo/manage-login.html",
+    "eventType": "click",
+    "timestamp": 1771090824120,
+    "url": "http://localhost:3000/demo/index.html",
     "framePath": [
       "top"
     ],
     "target": {
       "tagName": "input",
-      "inputType": "email",
-      "id": "manage-email",
-      "name": "email",
+      "inputType": "password",
+      "id": "password",
+      "name": "password",
       "classList": [],
       "dataAttributes": {
-        "data-testid": "manage-email"
+        "data-testid": "login-password"
       },
       "ariaLabel": null,
       "ariaLabelledby": null,
       "role": null,
-      "placeholder": null,
+      "placeholder": "Enter password",
+      "title": null,
+      "innerText": null,
+      "value": "j^ZxrMYJqkv&x8)z",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 289,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#password",
+      "xpath": "/html/body/main/form/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Password"
+        },
+        {
+          "tagName": "form",
+          "id": "login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
+        }
+      ],
+      "nearbyLabels": [
+        "Password"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090824350,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "password",
+      "id": "password",
+      "name": "password",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-password"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "Enter password",
       "title": null,
       "innerText": null,
       "value": "",
       "boundingClientRect": {
         "x": 44,
-        "y": 244,
+        "y": 289,
         "width": 520,
         "height": 36
       },
-      "cssPath": "#manage-email",
-      "xpath": "/html/body/main/form/div[1]/input"
-    },
-    "context": {
-      "parentChain": [
-        {
-          "tagName": "div",
-          "id": null,
-          "name": null,
-          "classList": [
-            "form-field"
-          ],
-          "role": null,
-          "textSnippet": "Email"
-        },
-        {
-          "tagName": "form",
-          "id": "manage-login-form",
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Email Password Sign In"
-        },
-        {
-          "tagName": "main",
-          "id": null,
-          "name": null,
-          "classList": [
-            "card"
-          ],
-          "role": null,
-          "textSnippet": "Email Password Sign In"
-        },
-        {
-          "tagName": "body",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
-        },
-        {
-          "tagName": "html",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
-        }
-      ],
-      "nearbyLabels": [
-        "Email"
-      ]
-    }
-  },
-  {
-    "eventType": "input",
-    "timestamp": 1770840164868,
-    "url": "http://localhost:3000/demo/manage-login.html",
-    "framePath": [
-      "top"
-    ],
-    "target": {
-      "tagName": "input",
-      "inputType": "email",
-      "id": "manage-email",
-      "name": "email",
-      "classList": [],
-      "dataAttributes": {
-        "data-testid": "manage-email"
-      },
-      "ariaLabel": null,
-      "ariaLabelledby": null,
-      "role": null,
-      "placeholder": null,
-      "title": null,
-      "innerText": null,
-      "value": "a",
-      "boundingClientRect": {
-        "x": 44,
-        "y": 244,
-        "width": 520,
-        "height": 36
-      },
-      "cssPath": "#manage-email",
-      "xpath": "/html/body/main/form/div[1]/input"
-    },
-    "context": {
-      "parentChain": [
-        {
-          "tagName": "div",
-          "id": null,
-          "name": null,
-          "classList": [
-            "form-field"
-          ],
-          "role": null,
-          "textSnippet": "Email"
-        },
-        {
-          "tagName": "form",
-          "id": "manage-login-form",
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Email Password Sign In"
-        },
-        {
-          "tagName": "main",
-          "id": null,
-          "name": null,
-          "classList": [
-            "card"
-          ],
-          "role": null,
-          "textSnippet": "Email Password Sign In"
-        },
-        {
-          "tagName": "body",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
-        },
-        {
-          "tagName": "html",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
-        }
-      ],
-      "nearbyLabels": [
-        "Email"
-      ]
-    }
-  },
-  {
-    "eventType": "input",
-    "timestamp": 1770840165113,
-    "url": "http://localhost:3000/demo/manage-login.html",
-    "framePath": [
-      "top"
-    ],
-    "target": {
-      "tagName": "input",
-      "inputType": "email",
-      "id": "manage-email",
-      "name": "email",
-      "classList": [],
-      "dataAttributes": {
-        "data-testid": "manage-email"
-      },
-      "ariaLabel": null,
-      "ariaLabelledby": null,
-      "role": null,
-      "placeholder": null,
-      "title": null,
-      "innerText": null,
-      "value": "aa",
-      "boundingClientRect": {
-        "x": 44,
-        "y": 244,
-        "width": 520,
-        "height": 36
-      },
-      "cssPath": "#manage-email",
-      "xpath": "/html/body/main/form/div[1]/input"
-    },
-    "context": {
-      "parentChain": [
-        {
-          "tagName": "div",
-          "id": null,
-          "name": null,
-          "classList": [
-            "form-field"
-          ],
-          "role": null,
-          "textSnippet": "Email"
-        },
-        {
-          "tagName": "form",
-          "id": "manage-login-form",
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Email Password Sign In"
-        },
-        {
-          "tagName": "main",
-          "id": null,
-          "name": null,
-          "classList": [
-            "card"
-          ],
-          "role": null,
-          "textSnippet": "Email Password Sign In"
-        },
-        {
-          "tagName": "body",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
-        },
-        {
-          "tagName": "html",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
-        }
-      ],
-      "nearbyLabels": [
-        "Email"
-      ]
-    }
-  },
-  {
-    "eventType": "input",
-    "timestamp": 1770840166420,
-    "url": "http://localhost:3000/demo/manage-login.html",
-    "framePath": [
-      "top"
-    ],
-    "target": {
-      "tagName": "input",
-      "inputType": "email",
-      "id": "manage-email",
-      "name": "email",
-      "classList": [],
-      "dataAttributes": {
-        "data-testid": "manage-email"
-      },
-      "ariaLabel": null,
-      "ariaLabelledby": null,
-      "role": null,
-      "placeholder": null,
-      "title": null,
-      "innerText": null,
-      "value": "aa@ff.c",
-      "boundingClientRect": {
-        "x": 44,
-        "y": 244,
-        "width": 520,
-        "height": 36
-      },
-      "cssPath": "#manage-email",
-      "xpath": "/html/body/main/form/div[1]/input"
-    },
-    "context": {
-      "parentChain": [
-        {
-          "tagName": "div",
-          "id": null,
-          "name": null,
-          "classList": [
-            "form-field"
-          ],
-          "role": null,
-          "textSnippet": "Email"
-        },
-        {
-          "tagName": "form",
-          "id": "manage-login-form",
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Email Password Sign In"
-        },
-        {
-          "tagName": "main",
-          "id": null,
-          "name": null,
-          "classList": [
-            "card"
-          ],
-          "role": null,
-          "textSnippet": "Email Password Sign In"
-        },
-        {
-          "tagName": "body",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
-        },
-        {
-          "tagName": "html",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
-        }
-      ],
-      "nearbyLabels": [
-        "Email"
-      ]
-    }
-  },
-  {
-    "eventType": "change",
-    "timestamp": 1770840166420,
-    "url": "http://localhost:3000/demo/manage-login.html",
-    "framePath": [
-      "top"
-    ],
-    "target": {
-      "tagName": "input",
-      "inputType": "email",
-      "id": "manage-email",
-      "name": "email",
-      "classList": [],
-      "dataAttributes": {
-        "data-testid": "manage-email"
-      },
-      "ariaLabel": null,
-      "ariaLabelledby": null,
-      "role": null,
-      "placeholder": null,
-      "title": null,
-      "innerText": null,
-      "value": "aa@ff.c",
-      "boundingClientRect": {
-        "x": 44,
-        "y": 244,
-        "width": 520,
-        "height": 36
-      },
-      "cssPath": "#manage-email",
-      "xpath": "/html/body/main/form/div[1]/input"
-    },
-    "context": {
-      "parentChain": [
-        {
-          "tagName": "div",
-          "id": null,
-          "name": null,
-          "classList": [
-            "form-field"
-          ],
-          "role": null,
-          "textSnippet": "Email"
-        },
-        {
-          "tagName": "form",
-          "id": "manage-login-form",
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Email Password Sign In"
-        },
-        {
-          "tagName": "main",
-          "id": null,
-          "name": null,
-          "classList": [
-            "card"
-          ],
-          "role": null,
-          "textSnippet": "Email Password Sign In"
-        },
-        {
-          "tagName": "body",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
-        },
-        {
-          "tagName": "html",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
-        }
-      ],
-      "nearbyLabels": [
-        "Email"
-      ]
-    }
-  },
-  {
-    "eventType": "click",
-    "timestamp": 1770840166885,
-    "url": "http://localhost:3000/demo/manage-login.html",
-    "framePath": [
-      "top"
-    ],
-    "target": {
-      "tagName": "input",
-      "inputType": "password",
-      "id": "manage-password",
-      "name": "password",
-      "classList": [],
-      "dataAttributes": {
-        "data-testid": "manage-password"
-      },
-      "ariaLabel": null,
-      "ariaLabelledby": null,
-      "role": null,
-      "placeholder": null,
-      "title": null,
-      "innerText": null,
-      "value": "j^ZxrMYJqkv&x8)z",
-      "boundingClientRect": {
-        "x": 44,
-        "y": 314,
-        "width": 520,
-        "height": 36
-      },
-      "cssPath": "#manage-password",
+      "cssPath": "#password",
       "xpath": "/html/body/main/form/div[2]/input"
     },
     "context": {
@@ -1293,7 +1977,7 @@
         },
         {
           "tagName": "form",
-          "id": "manage-login-form",
+          "id": "login-form",
           "name": null,
           "classList": [],
           "role": null,
@@ -1307,7 +1991,7 @@
             "card"
           ],
           "role": null,
-          "textSnippet": "Email Password Sign In"
+          "textSnippet": "Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "body",
@@ -1315,7 +1999,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "html",
@@ -1323,175 +2007,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
-        }
-      ],
-      "nearbyLabels": [
-        "Password"
-      ]
-    }
-  },
-  {
-    "eventType": "click",
-    "timestamp": 1770840167040,
-    "url": "http://localhost:3000/demo/manage-login.html",
-    "framePath": [
-      "top"
-    ],
-    "target": {
-      "tagName": "input",
-      "inputType": "password",
-      "id": "manage-password",
-      "name": "password",
-      "classList": [],
-      "dataAttributes": {
-        "data-testid": "manage-password"
-      },
-      "ariaLabel": null,
-      "ariaLabelledby": null,
-      "role": null,
-      "placeholder": null,
-      "title": null,
-      "innerText": null,
-      "value": "j^ZxrMYJqkv&x8)z",
-      "boundingClientRect": {
-        "x": 44,
-        "y": 314,
-        "width": 520,
-        "height": 36
-      },
-      "cssPath": "#manage-password",
-      "xpath": "/html/body/main/form/div[2]/input"
-    },
-    "context": {
-      "parentChain": [
-        {
-          "tagName": "div",
-          "id": null,
-          "name": null,
-          "classList": [
-            "form-field"
-          ],
-          "role": null,
-          "textSnippet": "Password"
-        },
-        {
-          "tagName": "form",
-          "id": "manage-login-form",
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Email Password Sign In"
-        },
-        {
-          "tagName": "main",
-          "id": null,
-          "name": null,
-          "classList": [
-            "card"
-          ],
-          "role": null,
-          "textSnippet": "Email Password Sign In"
-        },
-        {
-          "tagName": "body",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
-        },
-        {
-          "tagName": "html",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
-        }
-      ],
-      "nearbyLabels": [
-        "Password"
-      ]
-    }
-  },
-  {
-    "eventType": "click",
-    "timestamp": 1770840167203,
-    "url": "http://localhost:3000/demo/manage-login.html",
-    "framePath": [
-      "top"
-    ],
-    "target": {
-      "tagName": "input",
-      "inputType": "password",
-      "id": "manage-password",
-      "name": "password",
-      "classList": [],
-      "dataAttributes": {
-        "data-testid": "manage-password"
-      },
-      "ariaLabel": null,
-      "ariaLabelledby": null,
-      "role": null,
-      "placeholder": null,
-      "title": null,
-      "innerText": null,
-      "value": "j^ZxrMYJqkv&x8)z",
-      "boundingClientRect": {
-        "x": 44,
-        "y": 314,
-        "width": 520,
-        "height": 36
-      },
-      "cssPath": "#manage-password",
-      "xpath": "/html/body/main/form/div[2]/input"
-    },
-    "context": {
-      "parentChain": [
-        {
-          "tagName": "div",
-          "id": null,
-          "name": null,
-          "classList": [
-            "form-field"
-          ],
-          "role": null,
-          "textSnippet": "Password"
-        },
-        {
-          "tagName": "form",
-          "id": "manage-login-form",
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Email Password Sign In"
-        },
-        {
-          "tagName": "main",
-          "id": null,
-          "name": null,
-          "classList": [
-            "card"
-          ],
-          "role": null,
-          "textSnippet": "Email Password Sign In"
-        },
-        {
-          "tagName": "body",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
-        },
-        {
-          "tagName": "html",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
         }
       ],
       "nearbyLabels": [
@@ -1501,34 +2017,34 @@
   },
   {
     "eventType": "input",
-    "timestamp": 1770840167431,
-    "url": "http://localhost:3000/demo/manage-login.html",
+    "timestamp": 1771090825473,
+    "url": "http://localhost:3000/demo/index.html",
     "framePath": [
       "top"
     ],
     "target": {
       "tagName": "input",
       "inputType": "password",
-      "id": "manage-password",
+      "id": "password",
       "name": "password",
       "classList": [],
       "dataAttributes": {
-        "data-testid": "manage-password"
+        "data-testid": "login-password"
       },
       "ariaLabel": null,
       "ariaLabelledby": null,
       "role": null,
-      "placeholder": null,
+      "placeholder": "Enter password",
       "title": null,
       "innerText": null,
-      "value": "",
+      "value": "1",
       "boundingClientRect": {
         "x": 44,
-        "y": 314,
+        "y": 289,
         "width": 520,
         "height": 36
       },
-      "cssPath": "#manage-password",
+      "cssPath": "#password",
       "xpath": "/html/body/main/form/div[2]/input"
     },
     "context": {
@@ -1545,7 +2061,7 @@
         },
         {
           "tagName": "form",
-          "id": "manage-login-form",
+          "id": "login-form",
           "name": null,
           "classList": [],
           "role": null,
@@ -1559,7 +2075,7 @@
             "card"
           ],
           "role": null,
-          "textSnippet": "Email Password Sign In"
+          "textSnippet": "Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "body",
@@ -1567,7 +2083,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "html",
@@ -1575,7 +2091,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
         }
       ],
       "nearbyLabels": [
@@ -1585,34 +2101,34 @@
   },
   {
     "eventType": "input",
-    "timestamp": 1770840167606,
-    "url": "http://localhost:3000/demo/manage-login.html",
+    "timestamp": 1771090825658,
+    "url": "http://localhost:3000/demo/index.html",
     "framePath": [
       "top"
     ],
     "target": {
       "tagName": "input",
       "inputType": "password",
-      "id": "manage-password",
+      "id": "password",
       "name": "password",
       "classList": [],
       "dataAttributes": {
-        "data-testid": "manage-password"
+        "data-testid": "login-password"
       },
       "ariaLabel": null,
       "ariaLabelledby": null,
       "role": null,
-      "placeholder": null,
+      "placeholder": "Enter password",
       "title": null,
       "innerText": null,
-      "value": "a",
+      "value": "12",
       "boundingClientRect": {
         "x": 44,
-        "y": 314,
+        "y": 289,
         "width": 520,
         "height": 36
       },
-      "cssPath": "#manage-password",
+      "cssPath": "#password",
       "xpath": "/html/body/main/form/div[2]/input"
     },
     "context": {
@@ -1629,7 +2145,7 @@
         },
         {
           "tagName": "form",
-          "id": "manage-login-form",
+          "id": "login-form",
           "name": null,
           "classList": [],
           "role": null,
@@ -1643,7 +2159,7 @@
             "card"
           ],
           "role": null,
-          "textSnippet": "Email Password Sign In"
+          "textSnippet": "Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "body",
@@ -1651,7 +2167,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "html",
@@ -1659,7 +2175,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
         }
       ],
       "nearbyLabels": [
@@ -1669,34 +2185,34 @@
   },
   {
     "eventType": "input",
-    "timestamp": 1770840167775,
-    "url": "http://localhost:3000/demo/manage-login.html",
+    "timestamp": 1771090825751,
+    "url": "http://localhost:3000/demo/index.html",
     "framePath": [
       "top"
     ],
     "target": {
       "tagName": "input",
       "inputType": "password",
-      "id": "manage-password",
+      "id": "password",
       "name": "password",
       "classList": [],
       "dataAttributes": {
-        "data-testid": "manage-password"
+        "data-testid": "login-password"
       },
       "ariaLabel": null,
       "ariaLabelledby": null,
       "role": null,
-      "placeholder": null,
+      "placeholder": "Enter password",
       "title": null,
       "innerText": null,
-      "value": "aa",
+      "value": "123",
       "boundingClientRect": {
         "x": 44,
-        "y": 314,
+        "y": 289,
         "width": 520,
         "height": 36
       },
-      "cssPath": "#manage-password",
+      "cssPath": "#password",
       "xpath": "/html/body/main/form/div[2]/input"
     },
     "context": {
@@ -1713,7 +2229,7 @@
         },
         {
           "tagName": "form",
-          "id": "manage-login-form",
+          "id": "login-form",
           "name": null,
           "classList": [],
           "role": null,
@@ -1727,7 +2243,7 @@
             "card"
           ],
           "role": null,
-          "textSnippet": "Email Password Sign In"
+          "textSnippet": "Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "body",
@@ -1735,7 +2251,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "html",
@@ -1743,7 +2259,343 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
+        }
+      ],
+      "nearbyLabels": [
+        "Password"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090825891,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "password",
+      "id": "password",
+      "name": "password",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-password"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "Enter password",
+      "title": null,
+      "innerText": null,
+      "value": "1232",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 289,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#password",
+      "xpath": "/html/body/main/form/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Password"
+        },
+        {
+          "tagName": "form",
+          "id": "login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
+        }
+      ],
+      "nearbyLabels": [
+        "Password"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090825990,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "password",
+      "id": "password",
+      "name": "password",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-password"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "Enter password",
+      "title": null,
+      "innerText": null,
+      "value": "12323",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 289,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#password",
+      "xpath": "/html/body/main/form/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Password"
+        },
+        {
+          "tagName": "form",
+          "id": "login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
+        }
+      ],
+      "nearbyLabels": [
+        "Password"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090826109,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "password",
+      "id": "password",
+      "name": "password",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-password"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "Enter password",
+      "title": null,
+      "innerText": null,
+      "value": "123232",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 289,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#password",
+      "xpath": "/html/body/main/form/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Password"
+        },
+        {
+          "tagName": "form",
+          "id": "login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
+        }
+      ],
+      "nearbyLabels": [
+        "Password"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090826161,
+    "url": "http://localhost:3000/demo/index.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "password",
+      "id": "password",
+      "name": "password",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "login-password"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "Enter password",
+      "title": null,
+      "innerText": null,
+      "value": "1232323",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 289,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#password",
+      "xpath": "/html/body/main/form/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Password"
+        },
+        {
+          "tagName": "form",
+          "id": "login-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Email Password Sign In"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
         }
       ],
       "nearbyLabels": [
@@ -1753,34 +2605,34 @@
   },
   {
     "eventType": "change",
-    "timestamp": 1770840168440,
-    "url": "http://localhost:3000/demo/manage-login.html",
+    "timestamp": 1771090826979,
+    "url": "http://localhost:3000/demo/index.html",
     "framePath": [
       "top"
     ],
     "target": {
       "tagName": "input",
       "inputType": "password",
-      "id": "manage-password",
+      "id": "password",
       "name": "password",
       "classList": [],
       "dataAttributes": {
-        "data-testid": "manage-password"
+        "data-testid": "login-password"
       },
       "ariaLabel": null,
       "ariaLabelledby": null,
       "role": null,
-      "placeholder": null,
+      "placeholder": "Enter password",
       "title": null,
       "innerText": null,
-      "value": "aa",
+      "value": "1232323",
       "boundingClientRect": {
         "x": 44,
-        "y": 314,
+        "y": 289,
         "width": 520,
         "height": 36
       },
-      "cssPath": "#manage-password",
+      "cssPath": "#password",
       "xpath": "/html/body/main/form/div[2]/input"
     },
     "context": {
@@ -1797,7 +2649,7 @@
         },
         {
           "tagName": "form",
-          "id": "manage-login-form",
+          "id": "login-form",
           "name": null,
           "classList": [],
           "role": null,
@@ -1811,7 +2663,7 @@
             "card"
           ],
           "role": null,
-          "textSnippet": "Email Password Sign In"
+          "textSnippet": "Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "body",
@@ -1819,7 +2671,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "html",
@@ -1827,7 +2679,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
         }
       ],
       "nearbyLabels": [
@@ -1837,8 +2689,8 @@
   },
   {
     "eventType": "click",
-    "timestamp": 1770840168520,
-    "url": "http://localhost:3000/demo/manage-login.html",
+    "timestamp": 1771090827075,
+    "url": "http://localhost:3000/demo/index.html",
     "framePath": [
       "top"
     ],
@@ -1849,7 +2701,7 @@
       "name": null,
       "classList": [],
       "dataAttributes": {
-        "data-testid": "manage-login-submit"
+        "data-testid": "login-submit"
       },
       "ariaLabel": null,
       "ariaLabelledby": null,
@@ -1860,18 +2712,18 @@
       "value": null,
       "boundingClientRect": {
         "x": 44,
-        "y": 362,
+        "y": 337,
         "width": 64,
         "height": 32
       },
-      "cssPath": "form#manage-login-form > button",
+      "cssPath": "form#login-form > button",
       "xpath": "/html/body/main/form/button"
     },
     "context": {
       "parentChain": [
         {
           "tagName": "form",
-          "id": "manage-login-form",
+          "id": "login-form",
           "name": null,
           "classList": [],
           "role": null,
@@ -1885,7 +2737,7 @@
             "card"
           ],
           "role": null,
-          "textSnippet": "Email Password Sign In"
+          "textSnippet": "Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "body",
@@ -1893,7 +2745,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "html",
@@ -1901,7 +2753,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
         }
       ],
       "nearbyLabels": []
@@ -1909,19 +2761,19 @@
   },
   {
     "eventType": "submit",
-    "timestamp": 1770840168521,
-    "url": "http://localhost:3000/demo/manage-login.html",
+    "timestamp": 1771090827076,
+    "url": "http://localhost:3000/demo/index.html",
     "framePath": [
       "top"
     ],
     "target": {
       "tagName": "form",
       "inputType": null,
-      "id": "manage-login-form",
+      "id": "login-form",
       "name": null,
       "classList": [],
       "dataAttributes": {
-        "data-testid": "manage-login-form"
+        "data-testid": "login-form"
       },
       "ariaLabel": null,
       "ariaLabelledby": null,
@@ -1932,11 +2784,11 @@
       "value": null,
       "boundingClientRect": {
         "x": 44,
-        "y": 222,
+        "y": 197,
         "width": 520,
         "height": 172
       },
-      "cssPath": "#manage-login-form",
+      "cssPath": "#login-form",
       "xpath": "/html/body/main/form"
     },
     "context": {
@@ -1949,7 +2801,7 @@
             "card"
           ],
           "role": null,
-          "textSnippet": "Email Password Sign In"
+          "textSnippet": "Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "body",
@@ -1957,7 +2809,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Log in to update existing appointments. Home Email Password …"
+          "textSnippet": "CareFlow EMR Demo Login Home Email Password Sign In Manage existing appointments"
         },
         {
           "tagName": "html",
@@ -1965,7 +2817,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Manage Appointments Manage Appointments Log in to update existing appointments. …"
+          "textSnippet": "Workflow Extractor Demo - Login CareFlow EMR Demo Login Home Email Password Sign…"
         }
       ],
       "nearbyLabels": []
@@ -1973,8 +2825,2121 @@
   },
   {
     "eventType": "click",
-    "timestamp": 1770840170474,
-    "url": "http://localhost:3000/demo/appointments.html",
+    "timestamp": 1771090828153,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "select",
+      "inputType": null,
+      "id": "doctor",
+      "name": "doctor",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "doctor-select"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": "Select doctor Dr. Harris Dr. Nguyen Dr. Lopez",
+      "value": "",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 219,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#doctor",
+      "xpath": "/html/body/main/div[1]/select"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Doctor Select doctor Dr. Harris Dr. Nguyen Dr. Lopez"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Doctor Select doctor Dr. Harris Dr. Nguyen Dr. Lopez Date Available Slots 09:00 …"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Schedule CareFlow EMR Schedule Workspace Home Doctor S…"
+        }
+      ],
+      "nearbyLabels": [
+        "Doctor"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090829839,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "select",
+      "inputType": null,
+      "id": "doctor",
+      "name": "doctor",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "doctor-select"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": "Select doctor Dr. Harris Dr. Nguyen Dr. Lopez",
+      "value": "lopez",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 219,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#doctor",
+      "xpath": "/html/body/main/div[1]/select"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Doctor Select doctor Dr. Harris Dr. Nguyen Dr. Lopez"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Doctor Select doctor Dr. Harris Dr. Nguyen Dr. Lopez Date Available Slots 09:00 …"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Schedule CareFlow EMR Schedule Workspace Home Doctor S…"
+        }
+      ],
+      "nearbyLabels": [
+        "Doctor"
+      ]
+    }
+  },
+  {
+    "eventType": "change",
+    "timestamp": 1771090829840,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "select",
+      "inputType": null,
+      "id": "doctor",
+      "name": "doctor",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "doctor-select"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": "Select doctor Dr. Harris Dr. Nguyen Dr. Lopez",
+      "value": "lopez",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 219,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#doctor",
+      "xpath": "/html/body/main/div[1]/select"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Doctor Select doctor Dr. Harris Dr. Nguyen Dr. Lopez"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Doctor Select doctor Dr. Harris Dr. Nguyen Dr. Lopez Date Available Slots 09:00 …"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Schedule CareFlow EMR Schedule Workspace Home Doctor S…"
+        }
+      ],
+      "nearbyLabels": [
+        "Doctor"
+      ]
+    }
+  },
+  {
+    "eventType": "click",
+    "timestamp": 1771090829840,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "select",
+      "inputType": null,
+      "id": "doctor",
+      "name": "doctor",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "doctor-select"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": "Select doctor Dr. Harris Dr. Nguyen Dr. Lopez",
+      "value": "lopez",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 219,
+        "width": 520,
+        "height": 36
+      },
+      "cssPath": "#doctor",
+      "xpath": "/html/body/main/div[1]/select"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Doctor Select doctor Dr. Harris Dr. Nguyen Dr. Lopez"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Doctor Select doctor Dr. Harris Dr. Nguyen Dr. Lopez Date Available Slots 09:00 …"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Schedule CareFlow EMR Schedule Workspace Home Doctor S…"
+        }
+      ],
+      "nearbyLabels": [
+        "Doctor"
+      ]
+    }
+  },
+  {
+    "eventType": "click",
+    "timestamp": 1771090830755,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "date",
+      "id": "visit-date",
+      "name": "visit-date",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "date-picker"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 288,
+        "width": 520,
+        "height": 39
+      },
+      "cssPath": "#visit-date",
+      "xpath": "/html/body/main/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Date"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Doctor Select doctor Dr. Harris Dr. Nguyen Dr. Lopez Date Available Slots 09:00 …"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Schedule CareFlow EMR Schedule Workspace Home Doctor S…"
+        }
+      ],
+      "nearbyLabels": [
+        "Date"
+      ]
+    }
+  },
+  {
+    "eventType": "click",
+    "timestamp": 1771090832373,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "date",
+      "id": "visit-date",
+      "name": "visit-date",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "date-picker"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 288,
+        "width": 520,
+        "height": 39
+      },
+      "cssPath": "#visit-date",
+      "xpath": "/html/body/main/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Date"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Doctor Select doctor Dr. Harris Dr. Nguyen Dr. Lopez Date Available Slots 09:00 …"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Schedule CareFlow EMR Schedule Workspace Home Doctor S…"
+        }
+      ],
+      "nearbyLabels": [
+        "Date"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090833873,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "date",
+      "id": "visit-date",
+      "name": "visit-date",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "date-picker"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "2026-02-04",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 288,
+        "width": 520,
+        "height": 39
+      },
+      "cssPath": "#visit-date",
+      "xpath": "/html/body/main/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Date"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Doctor Select doctor Dr. Harris Dr. Nguyen Dr. Lopez Date Available Slots 09:00 …"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Schedule CareFlow EMR Schedule Workspace Home Doctor S…"
+        }
+      ],
+      "nearbyLabels": [
+        "Date"
+      ]
+    }
+  },
+  {
+    "eventType": "change",
+    "timestamp": 1771090833876,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "date",
+      "id": "visit-date",
+      "name": "visit-date",
+      "classList": [],
+      "dataAttributes": {
+        "data-testid": "date-picker"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "2026-02-04",
+      "boundingClientRect": {
+        "x": 44,
+        "y": 288,
+        "width": 520,
+        "height": 39
+      },
+      "cssPath": "#visit-date",
+      "xpath": "/html/body/main/div[2]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Date"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Doctor Select doctor Dr. Harris Dr. Nguyen Dr. Lopez Date Available Slots 09:00 …"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Schedule CareFlow EMR Schedule Workspace Home Doctor S…"
+        }
+      ],
+      "nearbyLabels": [
+        "Date"
+      ]
+    }
+  },
+  {
+    "eventType": "click",
+    "timestamp": 1771090835073,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "button",
+      "inputType": null,
+      "id": null,
+      "name": null,
+      "classList": [
+        "slot"
+      ],
+      "dataAttributes": {
+        "data-time": "09:00",
+        "data-testid": "slot-0900"
+      },
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": "09:00 AM",
+      "value": null,
+      "boundingClientRect": {
+        "x": 44,
+        "y": 386,
+        "width": 165,
+        "height": 32
+      },
+      "cssPath": "html > body > main > div:nth-of-type(3) > button:nth-of-type(1)",
+      "xpath": "/html/body/main/div[3]/button[1]"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "grid"
+          ],
+          "role": null,
+          "textSnippet": "09:00 AM 10:30 AM 01:00 PM 03:15 PM"
+        },
+        {
+          "tagName": "main",
+          "id": null,
+          "name": null,
+          "classList": [
+            "card"
+          ],
+          "role": null,
+          "textSnippet": "Doctor Select doctor Dr. Harris Dr. Nguyen Dr. Lopez Date Available Slots 09:00 …"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        },
+        {
+          "tagName": "html",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Workflow Extractor Demo - Schedule CareFlow EMR Schedule Workspace Home Doctor S…"
+        }
+      ],
+      "nearbyLabels": []
+    }
+  },
+  {
+    "eventType": "click",
+    "timestamp": 1771090836289,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "text",
+      "id": "patient-name",
+      "name": "patient-name",
+      "classList": [],
+      "dataAttributes": {},
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "",
+      "boundingClientRect": {
+        "x": 624,
+        "y": 435,
+        "width": 480,
+        "height": 36
+      },
+      "cssPath": "#patient-name",
+      "xpath": "/html/body/div/div/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name"
+        },
+        {
+          "tagName": "form",
+          "id": "appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "modal"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": "appointment-modal",
+          "name": null,
+          "classList": [
+            "modal-backdrop"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        }
+      ],
+      "nearbyLabels": [
+        "Patient Name"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090836332,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "text",
+      "id": "patient-name",
+      "name": "patient-name",
+      "classList": [],
+      "dataAttributes": {},
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "s",
+      "boundingClientRect": {
+        "x": 624,
+        "y": 435,
+        "width": 480,
+        "height": 36
+      },
+      "cssPath": "#patient-name",
+      "xpath": "/html/body/div/div/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name"
+        },
+        {
+          "tagName": "form",
+          "id": "appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "modal"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": "appointment-modal",
+          "name": null,
+          "classList": [
+            "modal-backdrop"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        }
+      ],
+      "nearbyLabels": [
+        "Patient Name"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090836385,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "text",
+      "id": "patient-name",
+      "name": "patient-name",
+      "classList": [],
+      "dataAttributes": {},
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "sd",
+      "boundingClientRect": {
+        "x": 624,
+        "y": 435,
+        "width": 480,
+        "height": 36
+      },
+      "cssPath": "#patient-name",
+      "xpath": "/html/body/div/div/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name"
+        },
+        {
+          "tagName": "form",
+          "id": "appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "modal"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": "appointment-modal",
+          "name": null,
+          "classList": [
+            "modal-backdrop"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        }
+      ],
+      "nearbyLabels": [
+        "Patient Name"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090836491,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "text",
+      "id": "patient-name",
+      "name": "patient-name",
+      "classList": [],
+      "dataAttributes": {},
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "sdf",
+      "boundingClientRect": {
+        "x": 624,
+        "y": 435,
+        "width": 480,
+        "height": 36
+      },
+      "cssPath": "#patient-name",
+      "xpath": "/html/body/div/div/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name"
+        },
+        {
+          "tagName": "form",
+          "id": "appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "modal"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": "appointment-modal",
+          "name": null,
+          "classList": [
+            "modal-backdrop"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        }
+      ],
+      "nearbyLabels": [
+        "Patient Name"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090836639,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "text",
+      "id": "patient-name",
+      "name": "patient-name",
+      "classList": [],
+      "dataAttributes": {},
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "sdfs",
+      "boundingClientRect": {
+        "x": 624,
+        "y": 435,
+        "width": 480,
+        "height": 36
+      },
+      "cssPath": "#patient-name",
+      "xpath": "/html/body/div/div/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name"
+        },
+        {
+          "tagName": "form",
+          "id": "appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "modal"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": "appointment-modal",
+          "name": null,
+          "classList": [
+            "modal-backdrop"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        }
+      ],
+      "nearbyLabels": [
+        "Patient Name"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090836655,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "text",
+      "id": "patient-name",
+      "name": "patient-name",
+      "classList": [],
+      "dataAttributes": {},
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "sdfsd",
+      "boundingClientRect": {
+        "x": 624,
+        "y": 435,
+        "width": 480,
+        "height": 36
+      },
+      "cssPath": "#patient-name",
+      "xpath": "/html/body/div/div/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name"
+        },
+        {
+          "tagName": "form",
+          "id": "appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "modal"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": "appointment-modal",
+          "name": null,
+          "classList": [
+            "modal-backdrop"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        }
+      ],
+      "nearbyLabels": [
+        "Patient Name"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090836712,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "text",
+      "id": "patient-name",
+      "name": "patient-name",
+      "classList": [],
+      "dataAttributes": {},
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "sdfsdf",
+      "boundingClientRect": {
+        "x": 624,
+        "y": 435,
+        "width": 480,
+        "height": 36
+      },
+      "cssPath": "#patient-name",
+      "xpath": "/html/body/div/div/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name"
+        },
+        {
+          "tagName": "form",
+          "id": "appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "modal"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": "appointment-modal",
+          "name": null,
+          "classList": [
+            "modal-backdrop"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        }
+      ],
+      "nearbyLabels": [
+        "Patient Name"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090837288,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "text",
+      "id": "patient-name",
+      "name": "patient-name",
+      "classList": [],
+      "dataAttributes": {},
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "sdfsdf ",
+      "boundingClientRect": {
+        "x": 624,
+        "y": 435,
+        "width": 480,
+        "height": 36
+      },
+      "cssPath": "#patient-name",
+      "xpath": "/html/body/div/div/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name"
+        },
+        {
+          "tagName": "form",
+          "id": "appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "modal"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": "appointment-modal",
+          "name": null,
+          "classList": [
+            "modal-backdrop"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        }
+      ],
+      "nearbyLabels": [
+        "Patient Name"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090838188,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "text",
+      "id": "patient-name",
+      "name": "patient-name",
+      "classList": [],
+      "dataAttributes": {},
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "sdfsdf e",
+      "boundingClientRect": {
+        "x": 624,
+        "y": 435,
+        "width": 480,
+        "height": 36
+      },
+      "cssPath": "#patient-name",
+      "xpath": "/html/body/div/div/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name"
+        },
+        {
+          "tagName": "form",
+          "id": "appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "modal"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": "appointment-modal",
+          "name": null,
+          "classList": [
+            "modal-backdrop"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        }
+      ],
+      "nearbyLabels": [
+        "Patient Name"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090838379,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "text",
+      "id": "patient-name",
+      "name": "patient-name",
+      "classList": [],
+      "dataAttributes": {},
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "sdfsdf ee",
+      "boundingClientRect": {
+        "x": 624,
+        "y": 435,
+        "width": 480,
+        "height": 36
+      },
+      "cssPath": "#patient-name",
+      "xpath": "/html/body/div/div/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name"
+        },
+        {
+          "tagName": "form",
+          "id": "appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "modal"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": "appointment-modal",
+          "name": null,
+          "classList": [
+            "modal-backdrop"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        }
+      ],
+      "nearbyLabels": [
+        "Patient Name"
+      ]
+    }
+  },
+  {
+    "eventType": "change",
+    "timestamp": 1771090839145,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "input",
+      "inputType": "text",
+      "id": "patient-name",
+      "name": "patient-name",
+      "classList": [],
+      "dataAttributes": {},
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": null,
+      "title": null,
+      "innerText": null,
+      "value": "sdfsdf ee",
+      "boundingClientRect": {
+        "x": 624,
+        "y": 435,
+        "width": 480,
+        "height": 36
+      },
+      "cssPath": "#patient-name",
+      "xpath": "/html/body/div/div/form/div[1]/input"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Patient Name"
+        },
+        {
+          "tagName": "form",
+          "id": "appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "modal"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": "appointment-modal",
+          "name": null,
+          "classList": [
+            "modal-backdrop"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        }
+      ],
+      "nearbyLabels": [
+        "Patient Name"
+      ]
+    }
+  },
+  {
+    "eventType": "click",
+    "timestamp": 1771090839225,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "textarea",
+      "inputType": "textarea",
+      "id": "reason",
+      "name": "reason",
+      "classList": [],
+      "dataAttributes": {},
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "Annual checkup",
+      "title": null,
+      "innerText": null,
+      "value": "",
+      "boundingClientRect": {
+        "x": 624,
+        "y": 505,
+        "width": 480,
+        "height": 68
+      },
+      "cssPath": "#reason",
+      "xpath": "/html/body/div/div/form/div[2]/textarea"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Visit Reason"
+        },
+        {
+          "tagName": "form",
+          "id": "appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "modal"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": "appointment-modal",
+          "name": null,
+          "classList": [
+            "modal-backdrop"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        }
+      ],
+      "nearbyLabels": [
+        "Visit Reason"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090839961,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "textarea",
+      "inputType": "textarea",
+      "id": "reason",
+      "name": "reason",
+      "classList": [],
+      "dataAttributes": {},
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "Annual checkup",
+      "title": null,
+      "innerText": null,
+      "value": "t",
+      "boundingClientRect": {
+        "x": 624,
+        "y": 505,
+        "width": 480,
+        "height": 68
+      },
+      "cssPath": "#reason",
+      "xpath": "/html/body/div/div/form/div[2]/textarea"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Visit Reason"
+        },
+        {
+          "tagName": "form",
+          "id": "appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "modal"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": "appointment-modal",
+          "name": null,
+          "classList": [
+            "modal-backdrop"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        }
+      ],
+      "nearbyLabels": [
+        "Visit Reason"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090840156,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "textarea",
+      "inputType": "textarea",
+      "id": "reason",
+      "name": "reason",
+      "classList": [],
+      "dataAttributes": {},
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "Annual checkup",
+      "title": null,
+      "innerText": null,
+      "value": "tt",
+      "boundingClientRect": {
+        "x": 624,
+        "y": 505,
+        "width": 480,
+        "height": 68
+      },
+      "cssPath": "#reason",
+      "xpath": "/html/body/div/div/form/div[2]/textarea"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Visit Reason"
+        },
+        {
+          "tagName": "form",
+          "id": "appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "modal"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": "appointment-modal",
+          "name": null,
+          "classList": [
+            "modal-backdrop"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        }
+      ],
+      "nearbyLabels": [
+        "Visit Reason"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090840320,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "textarea",
+      "inputType": "textarea",
+      "id": "reason",
+      "name": "reason",
+      "classList": [],
+      "dataAttributes": {},
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "Annual checkup",
+      "title": null,
+      "innerText": null,
+      "value": "ttt",
+      "boundingClientRect": {
+        "x": 624,
+        "y": 505,
+        "width": 480,
+        "height": 68
+      },
+      "cssPath": "#reason",
+      "xpath": "/html/body/div/div/form/div[2]/textarea"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Visit Reason"
+        },
+        {
+          "tagName": "form",
+          "id": "appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "modal"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": "appointment-modal",
+          "name": null,
+          "classList": [
+            "modal-backdrop"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        }
+      ],
+      "nearbyLabels": [
+        "Visit Reason"
+      ]
+    }
+  },
+  {
+    "eventType": "input",
+    "timestamp": 1771090840438,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "textarea",
+      "inputType": "textarea",
+      "id": "reason",
+      "name": "reason",
+      "classList": [],
+      "dataAttributes": {},
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "Annual checkup",
+      "title": null,
+      "innerText": null,
+      "value": "tttt",
+      "boundingClientRect": {
+        "x": 624,
+        "y": 505,
+        "width": 480,
+        "height": 68
+      },
+      "cssPath": "#reason",
+      "xpath": "/html/body/div/div/form/div[2]/textarea"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Visit Reason"
+        },
+        {
+          "tagName": "form",
+          "id": "appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "modal"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": "appointment-modal",
+          "name": null,
+          "classList": [
+            "modal-backdrop"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        }
+      ],
+      "nearbyLabels": [
+        "Visit Reason"
+      ]
+    }
+  },
+  {
+    "eventType": "change",
+    "timestamp": 1771090841745,
+    "url": "http://localhost:3000/demo/schedule.html",
+    "framePath": [
+      "top"
+    ],
+    "target": {
+      "tagName": "textarea",
+      "inputType": "textarea",
+      "id": "reason",
+      "name": "reason",
+      "classList": [],
+      "dataAttributes": {},
+      "ariaLabel": null,
+      "ariaLabelledby": null,
+      "role": null,
+      "placeholder": "Annual checkup",
+      "title": null,
+      "innerText": null,
+      "value": "tttt",
+      "boundingClientRect": {
+        "x": 624,
+        "y": 505,
+        "width": 480,
+        "height": 68
+      },
+      "cssPath": "#reason",
+      "xpath": "/html/body/div/div/form/div[2]/textarea"
+    },
+    "context": {
+      "parentChain": [
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "form-field"
+          ],
+          "role": null,
+          "textSnippet": "Visit Reason"
+        },
+        {
+          "tagName": "form",
+          "id": "appointment-form",
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": null,
+          "name": null,
+          "classList": [
+            "modal"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": "appointment-modal",
+          "name": null,
+          "classList": [
+            "modal-backdrop"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "body",
+          "id": null,
+          "name": null,
+          "classList": [],
+          "role": null,
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
+        }
+      ],
+      "nearbyLabels": [
+        "Visit Reason"
+      ]
+    }
+  },
+  {
+    "eventType": "click",
+    "timestamp": 1771090841897,
+    "url": "http://localhost:3000/demo/schedule.html",
     "framePath": [
       "top"
     ],
@@ -1985,959 +4950,53 @@
       "name": null,
       "classList": [],
       "dataAttributes": {
-        "data-testid": "appointment-edit-2",
-        "data-action": "edit-appointment",
-        "data-id": "2"
+        "data-testid": "appointment-submit"
       },
       "ariaLabel": null,
       "ariaLabelledby": null,
       "role": null,
       "placeholder": null,
       "title": null,
-      "innerText": "Edit",
+      "innerText": "Confirm Appointment",
       "value": null,
       "boundingClientRect": {
-        "x": 680,
-        "y": 301,
-        "width": 44,
+        "x": 624,
+        "y": 584,
+        "width": 151,
         "height": 32
       },
-      "cssPath": "html > body > main > div:nth-of-type(2) > button",
-      "xpath": "/html/body/main/div[2]/button"
-    },
-    "context": {
-      "parentChain": [
-        {
-          "tagName": "div",
-          "id": null,
-          "name": null,
-          "classList": [
-            "appointment-row"
-          ],
-          "role": null,
-          "textSnippet": "Jordan Lee Mar 14, 2026 · 1:00 PM · Follow-up Edit"
-        },
-        {
-          "tagName": "main",
-          "id": null,
-          "name": null,
-          "classList": [
-            "list"
-          ],
-          "role": null,
-          "textSnippet": "Alex Morgan Mar 12, 2026 · 10:30 AM · Annual checkup Edit Jordan Lee Mar 14, 202…"
-        },
-        {
-          "tagName": "body",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Appointments Select an appointment to update. Home Alex Morgan Mar 12, 2026 · 10…"
-        },
-        {
-          "tagName": "html",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Appointments Appointments Select an appointment to update. Home Alex Morgan Mar …"
-        }
-      ],
-      "nearbyLabels": []
-    }
-  },
-  {
-    "eventType": "click",
-    "timestamp": 1770840174414,
-    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
-    "framePath": [
-      "top"
-    ],
-    "target": {
-      "tagName": "select",
-      "inputType": null,
-      "id": "visit-time",
-      "name": "visit-time",
-      "classList": [],
-      "dataAttributes": {
-        "data-testid": "edit-visit-time"
-      },
-      "ariaLabel": null,
-      "ariaLabelledby": null,
-      "role": null,
-      "placeholder": null,
-      "title": null,
-      "innerText": "09:00 AM 10:30 AM 01:00 PM 03:15 PM",
-      "value": "10:30",
-      "boundingClientRect": {
-        "x": 44,
-        "y": 386,
-        "width": 520,
-        "height": 36
-      },
-      "cssPath": "#visit-time",
-      "xpath": "/html/body/main/form/div[3]/select"
-    },
-    "context": {
-      "parentChain": [
-        {
-          "tagName": "div",
-          "id": null,
-          "name": null,
-          "classList": [
-            "form-field"
-          ],
-          "role": null,
-          "textSnippet": "Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM"
-        },
-        {
-          "tagName": "form",
-          "id": "edit-appointment-form",
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
-        },
-        {
-          "tagName": "main",
-          "id": null,
-          "name": null,
-          "classList": [
-            "card"
-          ],
-          "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
-        },
-        {
-          "tagName": "body",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
-        },
-        {
-          "tagName": "html",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
-        }
-      ],
-      "nearbyLabels": [
-        "Visit Time"
-      ]
-    }
-  },
-  {
-    "eventType": "input",
-    "timestamp": 1770840175998,
-    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
-    "framePath": [
-      "top"
-    ],
-    "target": {
-      "tagName": "select",
-      "inputType": null,
-      "id": "visit-time",
-      "name": "visit-time",
-      "classList": [],
-      "dataAttributes": {
-        "data-testid": "edit-visit-time"
-      },
-      "ariaLabel": null,
-      "ariaLabelledby": null,
-      "role": null,
-      "placeholder": null,
-      "title": null,
-      "innerText": "09:00 AM 10:30 AM 01:00 PM 03:15 PM",
-      "value": "15:15",
-      "boundingClientRect": {
-        "x": 44,
-        "y": 386,
-        "width": 520,
-        "height": 36
-      },
-      "cssPath": "#visit-time",
-      "xpath": "/html/body/main/form/div[3]/select"
-    },
-    "context": {
-      "parentChain": [
-        {
-          "tagName": "div",
-          "id": null,
-          "name": null,
-          "classList": [
-            "form-field"
-          ],
-          "role": null,
-          "textSnippet": "Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM"
-        },
-        {
-          "tagName": "form",
-          "id": "edit-appointment-form",
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
-        },
-        {
-          "tagName": "main",
-          "id": null,
-          "name": null,
-          "classList": [
-            "card"
-          ],
-          "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
-        },
-        {
-          "tagName": "body",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
-        },
-        {
-          "tagName": "html",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
-        }
-      ],
-      "nearbyLabels": [
-        "Visit Time"
-      ]
-    }
-  },
-  {
-    "eventType": "change",
-    "timestamp": 1770840176000,
-    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
-    "framePath": [
-      "top"
-    ],
-    "target": {
-      "tagName": "select",
-      "inputType": null,
-      "id": "visit-time",
-      "name": "visit-time",
-      "classList": [],
-      "dataAttributes": {
-        "data-testid": "edit-visit-time"
-      },
-      "ariaLabel": null,
-      "ariaLabelledby": null,
-      "role": null,
-      "placeholder": null,
-      "title": null,
-      "innerText": "09:00 AM 10:30 AM 01:00 PM 03:15 PM",
-      "value": "15:15",
-      "boundingClientRect": {
-        "x": 44,
-        "y": 386,
-        "width": 520,
-        "height": 36
-      },
-      "cssPath": "#visit-time",
-      "xpath": "/html/body/main/form/div[3]/select"
-    },
-    "context": {
-      "parentChain": [
-        {
-          "tagName": "div",
-          "id": null,
-          "name": null,
-          "classList": [
-            "form-field"
-          ],
-          "role": null,
-          "textSnippet": "Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM"
-        },
-        {
-          "tagName": "form",
-          "id": "edit-appointment-form",
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
-        },
-        {
-          "tagName": "main",
-          "id": null,
-          "name": null,
-          "classList": [
-            "card"
-          ],
-          "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
-        },
-        {
-          "tagName": "body",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
-        },
-        {
-          "tagName": "html",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
-        }
-      ],
-      "nearbyLabels": [
-        "Visit Time"
-      ]
-    }
-  },
-  {
-    "eventType": "click",
-    "timestamp": 1770840176000,
-    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
-    "framePath": [
-      "top"
-    ],
-    "target": {
-      "tagName": "select",
-      "inputType": null,
-      "id": "visit-time",
-      "name": "visit-time",
-      "classList": [],
-      "dataAttributes": {
-        "data-testid": "edit-visit-time"
-      },
-      "ariaLabel": null,
-      "ariaLabelledby": null,
-      "role": null,
-      "placeholder": null,
-      "title": null,
-      "innerText": "09:00 AM 10:30 AM 01:00 PM 03:15 PM",
-      "value": "15:15",
-      "boundingClientRect": {
-        "x": 44,
-        "y": 386,
-        "width": 520,
-        "height": 36
-      },
-      "cssPath": "#visit-time",
-      "xpath": "/html/body/main/form/div[3]/select"
-    },
-    "context": {
-      "parentChain": [
-        {
-          "tagName": "div",
-          "id": null,
-          "name": null,
-          "classList": [
-            "form-field"
-          ],
-          "role": null,
-          "textSnippet": "Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM"
-        },
-        {
-          "tagName": "form",
-          "id": "edit-appointment-form",
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
-        },
-        {
-          "tagName": "main",
-          "id": null,
-          "name": null,
-          "classList": [
-            "card"
-          ],
-          "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
-        },
-        {
-          "tagName": "body",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
-        },
-        {
-          "tagName": "html",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
-        }
-      ],
-      "nearbyLabels": [
-        "Visit Time"
-      ]
-    }
-  },
-  {
-    "eventType": "click",
-    "timestamp": 1770840177714,
-    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
-    "framePath": [
-      "top"
-    ],
-    "target": {
-      "tagName": "input",
-      "inputType": "date",
-      "id": "visit-date",
-      "name": "visit-date",
-      "classList": [],
-      "dataAttributes": {
-        "data-testid": "edit-visit-date"
-      },
-      "ariaLabel": null,
-      "ariaLabelledby": null,
-      "role": null,
-      "placeholder": null,
-      "title": null,
-      "innerText": null,
-      "value": "2026-03-12",
-      "boundingClientRect": {
-        "x": 44,
-        "y": 314,
-        "width": 520,
-        "height": 39
-      },
-      "cssPath": "#visit-date",
-      "xpath": "/html/body/main/form/div[2]/input"
-    },
-    "context": {
-      "parentChain": [
-        {
-          "tagName": "div",
-          "id": null,
-          "name": null,
-          "classList": [
-            "form-field"
-          ],
-          "role": null,
-          "textSnippet": "Visit Date"
-        },
-        {
-          "tagName": "form",
-          "id": "edit-appointment-form",
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
-        },
-        {
-          "tagName": "main",
-          "id": null,
-          "name": null,
-          "classList": [
-            "card"
-          ],
-          "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
-        },
-        {
-          "tagName": "body",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
-        },
-        {
-          "tagName": "html",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
-        }
-      ],
-      "nearbyLabels": [
-        "Visit Date"
-      ]
-    }
-  },
-  {
-    "eventType": "input",
-    "timestamp": 1770840179419,
-    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
-    "framePath": [
-      "top"
-    ],
-    "target": {
-      "tagName": "input",
-      "inputType": "date",
-      "id": "visit-date",
-      "name": "visit-date",
-      "classList": [],
-      "dataAttributes": {
-        "data-testid": "edit-visit-date"
-      },
-      "ariaLabel": null,
-      "ariaLabelledby": null,
-      "role": null,
-      "placeholder": null,
-      "title": null,
-      "innerText": null,
-      "value": "2026-03-26",
-      "boundingClientRect": {
-        "x": 44,
-        "y": 314,
-        "width": 520,
-        "height": 39
-      },
-      "cssPath": "#visit-date",
-      "xpath": "/html/body/main/form/div[2]/input"
-    },
-    "context": {
-      "parentChain": [
-        {
-          "tagName": "div",
-          "id": null,
-          "name": null,
-          "classList": [
-            "form-field"
-          ],
-          "role": null,
-          "textSnippet": "Visit Date"
-        },
-        {
-          "tagName": "form",
-          "id": "edit-appointment-form",
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
-        },
-        {
-          "tagName": "main",
-          "id": null,
-          "name": null,
-          "classList": [
-            "card"
-          ],
-          "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
-        },
-        {
-          "tagName": "body",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
-        },
-        {
-          "tagName": "html",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
-        }
-      ],
-      "nearbyLabels": [
-        "Visit Date"
-      ]
-    }
-  },
-  {
-    "eventType": "change",
-    "timestamp": 1770840179422,
-    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
-    "framePath": [
-      "top"
-    ],
-    "target": {
-      "tagName": "input",
-      "inputType": "date",
-      "id": "visit-date",
-      "name": "visit-date",
-      "classList": [],
-      "dataAttributes": {
-        "data-testid": "edit-visit-date"
-      },
-      "ariaLabel": null,
-      "ariaLabelledby": null,
-      "role": null,
-      "placeholder": null,
-      "title": null,
-      "innerText": null,
-      "value": "2026-03-26",
-      "boundingClientRect": {
-        "x": 44,
-        "y": 314,
-        "width": 520,
-        "height": 39
-      },
-      "cssPath": "#visit-date",
-      "xpath": "/html/body/main/form/div[2]/input"
-    },
-    "context": {
-      "parentChain": [
-        {
-          "tagName": "div",
-          "id": null,
-          "name": null,
-          "classList": [
-            "form-field"
-          ],
-          "role": null,
-          "textSnippet": "Visit Date"
-        },
-        {
-          "tagName": "form",
-          "id": "edit-appointment-form",
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
-        },
-        {
-          "tagName": "main",
-          "id": null,
-          "name": null,
-          "classList": [
-            "card"
-          ],
-          "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
-        },
-        {
-          "tagName": "body",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
-        },
-        {
-          "tagName": "html",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
-        }
-      ],
-      "nearbyLabels": [
-        "Visit Date"
-      ]
-    }
-  },
-  {
-    "eventType": "click",
-    "timestamp": 1770840181444,
-    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
-    "framePath": [
-      "top"
-    ],
-    "target": {
-      "tagName": "textarea",
-      "inputType": "textarea",
-      "id": "visit-reason",
-      "name": "visit-reason",
-      "classList": [],
-      "dataAttributes": {
-        "data-testid": "edit-visit-reason"
-      },
-      "ariaLabel": null,
-      "ariaLabelledby": null,
-      "role": null,
-      "placeholder": null,
-      "title": null,
-      "innerText": "Annual checkup",
-      "value": "Annual checkup",
-      "boundingClientRect": {
-        "x": 44,
-        "y": 456,
-        "width": 520,
-        "height": 68
-      },
-      "cssPath": "#visit-reason",
-      "xpath": "/html/body/main/form/div[4]/textarea"
-    },
-    "context": {
-      "parentChain": [
-        {
-          "tagName": "div",
-          "id": null,
-          "name": null,
-          "classList": [
-            "form-field"
-          ],
-          "role": null,
-          "textSnippet": "Visit Reason Annual checkup"
-        },
-        {
-          "tagName": "form",
-          "id": "edit-appointment-form",
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
-        },
-        {
-          "tagName": "main",
-          "id": null,
-          "name": null,
-          "classList": [
-            "card"
-          ],
-          "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
-        },
-        {
-          "tagName": "body",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
-        },
-        {
-          "tagName": "html",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
-        }
-      ],
-      "nearbyLabels": [
-        "Visit Reason"
-      ]
-    }
-  },
-  {
-    "eventType": "input",
-    "timestamp": 1770840181923,
-    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
-    "framePath": [
-      "top"
-    ],
-    "target": {
-      "tagName": "textarea",
-      "inputType": "textarea",
-      "id": "visit-reason",
-      "name": "visit-reason",
-      "classList": [],
-      "dataAttributes": {
-        "data-testid": "edit-visit-reason"
-      },
-      "ariaLabel": null,
-      "ariaLabelledby": null,
-      "role": null,
-      "placeholder": null,
-      "title": null,
-      "innerText": "Annual checkup",
-      "value": "Annual checkup1",
-      "boundingClientRect": {
-        "x": 44,
-        "y": 456,
-        "width": 520,
-        "height": 68
-      },
-      "cssPath": "#visit-reason",
-      "xpath": "/html/body/main/form/div[4]/textarea"
-    },
-    "context": {
-      "parentChain": [
-        {
-          "tagName": "div",
-          "id": null,
-          "name": null,
-          "classList": [
-            "form-field"
-          ],
-          "role": null,
-          "textSnippet": "Visit Reason Annual checkup"
-        },
-        {
-          "tagName": "form",
-          "id": "edit-appointment-form",
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
-        },
-        {
-          "tagName": "main",
-          "id": null,
-          "name": null,
-          "classList": [
-            "card"
-          ],
-          "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
-        },
-        {
-          "tagName": "body",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
-        },
-        {
-          "tagName": "html",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
-        }
-      ],
-      "nearbyLabels": [
-        "Visit Reason"
-      ]
-    }
-  },
-  {
-    "eventType": "change",
-    "timestamp": 1770840183138,
-    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
-    "framePath": [
-      "top"
-    ],
-    "target": {
-      "tagName": "textarea",
-      "inputType": "textarea",
-      "id": "visit-reason",
-      "name": "visit-reason",
-      "classList": [],
-      "dataAttributes": {
-        "data-testid": "edit-visit-reason"
-      },
-      "ariaLabel": null,
-      "ariaLabelledby": null,
-      "role": null,
-      "placeholder": null,
-      "title": null,
-      "innerText": "Annual checkup",
-      "value": "Annual checkup1",
-      "boundingClientRect": {
-        "x": 44,
-        "y": 456,
-        "width": 520,
-        "height": 68
-      },
-      "cssPath": "#visit-reason",
-      "xpath": "/html/body/main/form/div[4]/textarea"
-    },
-    "context": {
-      "parentChain": [
-        {
-          "tagName": "div",
-          "id": null,
-          "name": null,
-          "classList": [
-            "form-field"
-          ],
-          "role": null,
-          "textSnippet": "Visit Reason Annual checkup"
-        },
-        {
-          "tagName": "form",
-          "id": "edit-appointment-form",
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
-        },
-        {
-          "tagName": "main",
-          "id": null,
-          "name": null,
-          "classList": [
-            "card"
-          ],
-          "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
-        },
-        {
-          "tagName": "body",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
-        },
-        {
-          "tagName": "html",
-          "id": null,
-          "name": null,
-          "classList": [],
-          "role": null,
-          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
-        }
-      ],
-      "nearbyLabels": [
-        "Visit Reason"
-      ]
-    }
-  },
-  {
-    "eventType": "click",
-    "timestamp": 1770840183222,
-    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
-    "framePath": [
-      "top"
-    ],
-    "target": {
-      "tagName": "button",
-      "inputType": null,
-      "id": null,
-      "name": null,
-      "classList": [],
-      "dataAttributes": {
-        "data-testid": "edit-appointment-submit"
-      },
-      "ariaLabel": null,
-      "ariaLabelledby": null,
-      "role": null,
-      "placeholder": null,
-      "title": null,
-      "innerText": "Save Changes",
-      "value": null,
-      "boundingClientRect": {
-        "x": 44,
-        "y": 535,
-        "width": 112,
-        "height": 32
-      },
-      "cssPath": "form#edit-appointment-form > button",
-      "xpath": "/html/body/main/form/button"
+      "cssPath": "form#appointment-form > button",
+      "xpath": "/html/body/div/div/form/button"
     },
     "context": {
       "parentChain": [
         {
           "tagName": "form",
-          "id": "edit-appointment-form",
+          "id": "appointment-form",
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+          "textSnippet": "Patient Name Visit Reason Confirm Appointment"
         },
         {
-          "tagName": "main",
+          "tagName": "div",
           "id": null,
           "name": null,
           "classList": [
-            "card"
+            "modal"
           ],
           "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": "appointment-modal",
+          "name": null,
+          "classList": [
+            "modal-backdrop"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
         },
         {
           "tagName": "body",
@@ -2945,7 +5004,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
         },
         {
           "tagName": "html",
@@ -2953,7 +5012,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
+          "textSnippet": "Workflow Extractor Demo - Schedule CareFlow EMR Schedule Workspace Home Doctor S…"
         }
       ],
       "nearbyLabels": []
@@ -2961,47 +5020,57 @@
   },
   {
     "eventType": "submit",
-    "timestamp": 1770840183223,
-    "url": "http://localhost:3000/demo/appointment-edit.html?id=2",
+    "timestamp": 1771090841898,
+    "url": "http://localhost:3000/demo/schedule.html",
     "framePath": [
       "top"
     ],
     "target": {
       "tagName": "form",
       "inputType": null,
-      "id": "edit-appointment-form",
+      "id": "appointment-form",
       "name": null,
       "classList": [],
       "dataAttributes": {
-        "data-testid": "edit-appointment-form"
+        "data-testid": "appointment-form"
       },
       "ariaLabel": null,
       "ariaLabelledby": null,
       "role": null,
       "placeholder": null,
       "title": null,
-      "innerText": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…",
+      "innerText": "Patient Name Visit Reason Confirm Appointment",
       "value": null,
       "boundingClientRect": {
-        "x": 44,
-        "y": 222,
-        "width": 520,
-        "height": 346
+        "x": 624,
+        "y": 413,
+        "width": 480,
+        "height": 204
       },
-      "cssPath": "#edit-appointment-form",
-      "xpath": "/html/body/main/form"
+      "cssPath": "#appointment-form",
+      "xpath": "/html/body/div/div/form"
     },
     "context": {
       "parentChain": [
         {
-          "tagName": "main",
+          "tagName": "div",
           "id": null,
           "name": null,
           "classList": [
-            "card"
+            "modal"
           ],
           "role": null,
-          "textSnippet": "Patient Name Visit Date Visit Time 09:00 AM 10:30 AM 01:00 PM 03:15 PM Visit Rea…"
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
+        },
+        {
+          "tagName": "div",
+          "id": "appointment-modal",
+          "name": null,
+          "classList": [
+            "modal-backdrop"
+          ],
+          "role": null,
+          "textSnippet": "New Appointment Dismiss Patient Name Visit Reason Confirm Appointment"
         },
         {
           "tagName": "body",
@@ -3009,7 +5078,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Edit Appointment Update the visit details and submit. Home Patient Name Visit Da…"
+          "textSnippet": "CareFlow EMR Schedule Workspace Home Doctor Select doctor Dr. Harris Dr. Nguyen …"
         },
         {
           "tagName": "html",
@@ -3017,7 +5086,7 @@
           "name": null,
           "classList": [],
           "role": null,
-          "textSnippet": "Edit Appointment Edit Appointment Update the visit details and submit. Home Pati…"
+          "textSnippet": "Workflow Extractor Demo - Schedule CareFlow EMR Schedule Workspace Home Doctor S…"
         }
       ],
       "nearbyLabels": []
