@@ -71,7 +71,10 @@ chrome.runtime.onMessage.addListener(
         return true;
       }
       case 'recorder:export': {
-        respond({ events, status: getStatus() });
+        const exportedEvents = [...events];
+        events = [];
+        persistState();
+        respond({ events: exportedEvents, status: getStatus() });
         return true;
       }
       default: {
